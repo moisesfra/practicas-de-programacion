@@ -1,0 +1,6 @@
+Comienzo de la FASE 1 (DIA 1) --->>> 10 de Febrero del 2021  
+Consta de 3 cursos que se deben aprobar en Freecodecamp;  1# Responsive Web Designs; 2# JavaScript Algorithms and Data Structures; 3# Front End Development Libraries.
+
+1# Responsive Web Designs
+
+/Dia 1  (10/2/21)/
