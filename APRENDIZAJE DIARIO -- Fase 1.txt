@@ -7,5 +7,8 @@ Consta de 3 cursos que se deben aprobar en Freecodecamp;  1# Responsive Web Desi
 Avancé hasta el 22% en HTML básico y HTML5
 
 /Dia 2  (11/2/21)/
-Avancé hasta el 
+Completé hasta el 100% en HTML básico y HTML5
+
+/Dia 3  (12/2/21)/
+Comienzo en el 0% en CSS básico
 
