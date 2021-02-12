@@ -218,5 +218,16 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		  font-family: sans-serif;
 		}
 		1.2.7.  Importa una fuente de Google Fonts
-		_ Se aprende a como importar una fuente de Google Fonts, para tu web.ç
-		1.2.8. 
+		_ Se aprende a como importar una fuente de Google Fonts, para la web.
+		1.2.8. Especifica cómo deben degradarse las fuentes
+		_ Se especifica el como degradar fuentes, cuando la fuente NO está disponible en el sistema.Por ejemplo, si quieres 
+		que un elemento utilice la fuente "Helvetica" pero que degrade a la fuente "sans-serif" en caso que "Helvetica" no esté 
+		disponible, se especifica de la siguiente manera:
+		p {
+		  font-family: Helvetica, sans-serif;
+		}
+		NOTA: Los nombres de las fuentes genéricas no distinguen entre mayúsculas y minúsculas. Además, no se necesitan 
+		comillas porque son palabras clave CSS.
+		1.2.9.  Cambia el tamaño de tus imágenes
+		_ Se aprende una propiedad llamada "width" que controla el ancho de un elemento. 
+		
