@@ -175,3 +175,25 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		</html>
 
 		En conclusión, HTML es mucho más que un simple lenjuaje de enmarcado...
+
+	1.2- CSS básico
+		1.2.1.  Cambia el color del texto
+		_ Se aprende a usar CSS para cambiar de colores las letras, cambaindo el "style" en los elementos como ejemplo h2.
+		<h2 style="color: blue;">CatPhotoApp</h2>
+		*NOTA: Ten en cuenta que es una buena práctica terminar las declaraciones de inline "style" usando punto y coma (;).
+		1.2.2.  Utiliza selectores CSS para dar estilo a elementos
+		_ Inline CSS es una de las formas de especificar el estilo de un elemento, pero existe una mejor forma de aplicar estilos CSS.
+		Se crea un bloque style como el que se ve a continuación:
+		<style>
+		</style>
+		Fijarse que en el bloque de estilo (style), se puede crear un selector CSS para los elementos "h2", sean de color rojo puedes añadir una regla de estilo.
+		POR EJEMPLO:
+		<style>
+		  h2 {
+		    color: red;
+		  }
+		</style>
+		Ten en cuenta que es importante tener tanto llaves de apertura como de cierre ("{" y "}") alrededor de la(s) regla(s) de estilo de cada elemento.
+		Además asegúrate de añadir un punto y coma (;) al final de cada una de las reglas de estilo de tu elemento.
+		1.2.3.  Usa una clase CSS para aplicar estilos a un elemento
+		_ 
