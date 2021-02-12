@@ -196,4 +196,27 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		Ten en cuenta que es importante tener tanto llaves de apertura como de cierre ("{" y "}") alrededor de la(s) regla(s) de estilo de cada elemento.
 		Además asegúrate de añadir un punto y coma (;) al final de cada una de las reglas de estilo de tu elemento.
 		1.2.3.  Usa una clase CSS para aplicar estilos a un elemento
-		_ 
+		_ Se aprende sobre el cómo declarar una clase CSS; por ejemplo:
+		<style>
+  		.blue-text {
+  		  color: blue;
+  		}
+		</style>
+		1.2.4.  Aplica un estilo a múltiples elementos usando una clase CSS
+		_ Se aprende sobre que el aplicar la clase "red-text" en los elementos "p". POR EJEMPLO:
+		<p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+		1.2.5.  Cambia el tamaño de fuente de un elemento
+		Se aprende sobre el tamaño de una fuente que es controlado por la propiedad CSS "font-size". EJEMPLO:
+		h1 {
+		  font-size: 30px;
+		}
+		1.2.6.  Establece la familia de fuentes de un elemento
+		_ Se aprende sobre la propiedad "font-family" (familia de fuente) para establecer qué fuente debe usar un elemento.
+		ES DECIR, para poder configurar a través de CSS, para el tipo de "Letrica" en las letras para el texto.
+		Por ejemplo, si quieres establecer la fuente de tu elemento h2 a sans-serif, usarías el siguiente CSS:
+		h2 {
+		  font-family: sans-serif;
+		}
+		1.2.7.  Importa una fuente de Google Fonts
+		_ Se aprende a como importar una fuente de Google Fonts, para tu web.ç
+		1.2.8. 
