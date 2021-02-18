@@ -57,7 +57,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		1.2.9.  Cambia el tamaño de tus imágenes
 		_ Se aprende una propiedad llamada "width" controla el ancho de un elemento. (tamaño de imagen)
 		1.2.10. Añade bordes alrededor de tus elementos
-		_ 
+		_ Se añade un borde verde a la imagen, a través los bordes CSS tienen propiedades como “style” (estilo), “color” y “width” (ancho). 
 		1.2.11. Añade esquinas redondeadas usando border-radius
 		_
 		1.2.12. Haz imágenes circulares usando border-radius (radio de borde)
