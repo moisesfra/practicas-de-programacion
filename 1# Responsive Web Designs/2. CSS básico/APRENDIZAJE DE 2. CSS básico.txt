@@ -55,7 +55,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		NOTA: Los nombres de las fuentes genéricas no distinguen entre mayúsculas y minúsculas. Además, no se necesitan 
 		comillas porque son palabras clave CSS.
 		1.2.9.  Cambia el tamaño de tus imágenes
-		_ Se aprende una propiedad llamada "width" controla el ancho de un elemento. 
+		_ Se aprende una propiedad llamada "width" controla el ancho de un elemento. (tamaño de imagen)
 		1.2.10. Añade bordes alrededor de tus elementos
 		_ 
 		1.2.11. Añade esquinas redondeadas usando border-radius
