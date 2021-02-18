@@ -1,0 +1,130 @@
+2# CSS básico
+
+RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
+
+	1.2- CSS básico
+		1.2.1.  Cambia el color del texto
+		_ Se aprende a usar CSS para cambiar de colores las letras, cambaindo el "style" en los elementos como ejemplo h2.
+		<h2 style="color: blue;">CatPhotoApp</h2>
+		*NOTA: Ten en cuenta que es una buena práctica terminar las declaraciones de inline "style" usando punto y coma (;).
+		1.2.2.  Utiliza selectores CSS para dar estilo a elementos
+		_ Inline CSS es una de las formas de especificar el estilo de un elemento, pero existe una mejor forma de aplicar estilos CSS.
+		Se crea un bloque style como el que se ve a continuación:
+		<style>
+		</style>
+		Fijarse que en el bloque de estilo (style), se puede crear un selector CSS para los elementos "h2", sean de color rojo puedes añadir una regla de estilo.
+		POR EJEMPLO:
+		<style>
+		  h2 {
+		    color: red;
+		  }
+		</style>
+		Ten en cuenta que es importante tener tanto llaves de apertura como de cierre ("{" y "}") alrededor de la(s) regla(s) de estilo de cada elemento.
+		Además asegúrate de añadir un punto y coma (;) al final de cada una de las reglas de estilo de tu elemento.
+		1.2.3.  Usa una clase CSS para aplicar estilos a un elemento
+		_ Se aprende sobre el cómo declarar una clase CSS; por ejemplo:
+		<style>
+  		.blue-text {
+  		  color: blue;
+  		}
+		</style>
+		1.2.4.  Aplica un estilo a múltiples elementos usando una clase CSS
+		_ Se aprende sobre que el aplicar la clase "red-text" en los elementos "p". POR EJEMPLO:
+		<p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+		1.2.5.  Cambia el tamaño de fuente de un elemento
+		Se aprende sobre el tamaño de una fuente que es controlado por la propiedad CSS "font-size". EJEMPLO:
+		h1 {
+		  font-size: 30px;
+		}
+		1.2.6.  Establece la familia de fuentes de un elemento
+		_ Se aprende sobre la propiedad "font-family" (familia de fuente) para establecer qué fuente debe usar un elemento.
+		ES DECIR, para poder configurar a través de CSS, para el tipo de "Letrica" en las letras para el texto.
+		Por ejemplo, si quieres establecer la fuente de tu elemento h2 a sans-serif, usarías el siguiente CSS:
+		h2 {
+		  font-family: sans-serif;
+		}
+		1.2.7.  Importa una fuente de Google Fonts
+		_ Se aprende a como importar una fuente de Google Fonts, para la web.
+		1.2.8. Especifica cómo deben degradarse las fuentes
+		_ Se especifica el como degradar fuentes, cuando la fuente NO está disponible en el sistema.Por ejemplo, si quieres 
+		que un elemento utilice la fuente "Helvetica" pero que degrade a la fuente "sans-serif" en caso que "Helvetica" no esté 
+		disponible, se especifica de la siguiente manera:
+		p {
+		  font-family: Helvetica, sans-serif;
+		}
+		NOTA: Los nombres de las fuentes genéricas no distinguen entre mayúsculas y minúsculas. Además, no se necesitan 
+		comillas porque son palabras clave CSS.
+		1.2.9.  Cambia el tamaño de tus imágenes
+		_ Se aprende una propiedad llamada "width" controla el ancho de un elemento. 
+		1.2.10. Añade bordes alrededor de tus elementos
+		_ 
+		1.2.11. Añade esquinas redondeadas usando border-radius
+		_
+		1.2.12. Haz imágenes circulares usando border-radius (radio de borde)
+		_
+		1.2.13. Establece el color de fondo de un elemento div
+		_
+		1.2.14. Establece el id de un elemento
+		_ 
+		1.2.15. Usa un atributo de id para aplicar estilo a un elemento
+		_
+		1.2.16. Ajusta el padding (relleno) de un elemento 
+		_
+		1.2.17. Ajusta el margen de un elemento
+		_
+		1.2.18. Añade un margen negativo a un elemento
+		_
+		1.2.19. Añade un “padding” o relleno diferente a cada lado de un elemento
+		_
+		1.2.20. Añade márgenes diferentes a cada lado de un elemento
+		_
+		1.2.21. Utiliza clockwise notation para especificar el relleno (padding) de un elemento
+		_
+		1.2.22. Utiliza clockwise notation para especificar el margen de un elemento
+		_
+		1.2.23. Usa selectores de atributos para dar estilos a elementos
+		_
+		1.2.24. Unidades absolutas y relativas de medida
+		_
+		1.2.25. Aplica un estilo el elemento HTML body
+		_ 
+		1.2.26. Hereda estilos del elemento body
+		_
+		1.2.27. Prioriza un estilo por sobre otro
+		_ 
+		1.2.28. Sobrescribe estilos en código CSS posterior
+		_
+		1.2.29. Sobrescribe declaraciones de clase dando estilo a atributos ID
+		_ 
+		1.2.30. Sobrescribe declaraciones de clase con inline styles (estilos de línea)
+		_ 
+		1.2.31. Sobrescribe todos los demás estilos usando !important
+		_
+		1.2.32. Utiliza código hexadecimal (hex code) para indicar colores específicos
+		_ 
+		1.2.33. Utiliza código hexadecimal (hex code) para mezclar colores
+		_
+		1.2.34. Usa código hexadecimal (hex code) abreviado
+		_
+		1.2.35. Utiliza valores RGB para asignar color a los elementos 
+		_ 
+		1.2.36. Utiliza RGB para mezclar colores 
+		_
+		1.2.37. Usa variables CSS para modificar varios elementos a la vez
+		_ 
+		1.2.38. Crea una variable de CSS personalizada
+		_ 
+		1.2.39. Utiliza una variable de CSS personalizada
+		_ 
+		1.2.40. Agregar un valor de respaldo (fallback) a una variable CSS
+		_
+		1.2.41. Mejora la compatibilidad con navegadores por medio de configuraciones de respaldo o “browser fallbacks”
+		_
+		1.2.42. Hereda variables CSS
+		_ 
+		1.2.43. Cambia una variable para un área específica 
+		_ 
+		1.2.44. Usa un media query para cambiar una variable
+		_ 
+
+
