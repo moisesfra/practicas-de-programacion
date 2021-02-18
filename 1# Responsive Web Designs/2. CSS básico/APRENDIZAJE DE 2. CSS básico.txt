@@ -63,7 +63,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		1.2.12. Haz imágenes circulares usando border-radius (radio de borde)
 		_ También los píxeles, también puedes especificar el “border-radius” usando un porcentaje. 
 		1.2.13. Establece el color de fondo de un elemento div
-		_
+		_ Se puede establecer el color de fondo de un elemento con la propiedad “background-color”. 
 		1.2.14. Establece el id de un elemento
 		_ 
 		1.2.15. Usa un atributo de id para aplicar estilo a un elemento
