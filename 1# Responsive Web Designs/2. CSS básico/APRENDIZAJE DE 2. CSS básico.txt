@@ -59,9 +59,9 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		1.2.10. Añade bordes alrededor de tus elementos
 		_ Se añade un borde verde a la imagen, a través los bordes CSS tienen propiedades como “style” (estilo), “color” y “width” (ancho). 
 		1.2.11. Añade esquinas redondeadas usando border-radius
-		_ Se redondean las esquinas con una propiedad CSS llamada border-radius (radio del borde). 
+		_ Se redondean las esquinas con una propiedad CSS llamada “border-radius” (radio del borde). 
 		1.2.12. Haz imágenes circulares usando border-radius (radio de borde)
-		_
+		_ También los píxeles, también puedes especificar el “border-radius” usando un porcentaje. 
 		1.2.13. Establece el color de fondo de un elemento div
 		_
 		1.2.14. Establece el id de un elemento
