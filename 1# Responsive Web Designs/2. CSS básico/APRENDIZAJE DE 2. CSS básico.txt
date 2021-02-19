@@ -152,7 +152,7 @@ El valor RGB del color blanco se ve así:
 
 
 		1.2.36. Utiliza RGB para mezclar colores 
-		_ 
+		_ Se mezclan los colores en textos mediante el código en RGB en CSS.
 
 		1.2.37. Usa variables CSS para modificar varios elementos a la vez
 		_ 
