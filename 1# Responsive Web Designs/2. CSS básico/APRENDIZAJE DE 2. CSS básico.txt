@@ -67,7 +67,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		1.2.14. Establece el id de un elemento
 		_ Las clases, cada elemento HTML también puede tener un atributo “id”.Existen varios beneficios de usar atributos de “id”: Puedes usar un “id” para dar estilo a un elemento específico; más adelante aprenderás que puedes usar atributos "id" para seleccionar y modificar elementos específicos por medio de JavaScript.Los atributos ”id” deben ser únicos. Los navegadores no verifican esta regla, pero es una buena práctica ampliamente aceptada. Entonces, por favor ten cuidado de no asignar a más de un elemento el mismo atributo “id”.
 		1.2.15. Usa un atributo de id para aplicar estilo a un elemento
-		_ 
+		_ Se cambian los colores de fondo de las letras en algunas partes a partir de los atributos id es que, al igual que las clases, puedes aplicarles estilos con CSS. Sin embargo, un “id” no es reutilizable y solo debe aplicarse a un único elemento.
 		1.2.16. Ajusta el padding (relleno) de un elemento 
 		_
 		1.2.17. Ajusta el margen de un elemento
