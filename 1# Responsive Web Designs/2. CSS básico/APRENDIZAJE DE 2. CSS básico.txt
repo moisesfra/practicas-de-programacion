@@ -165,7 +165,10 @@ El valor RGB del color blanco se ve así:
 background: var(--penguin-skin);
 Esto cambiará el fondo de cualquier elemento que utilice esta variable a "gray" (gris) porque ese es el valor de la variable “--penguin-skin”. Ten en cuenta que los estilos no se aplicarán a menos que los nombres de las variables utilizados estén escritos exactamente igual.
 		1.2.40. Agregar un valor de respaldo (fallback) a una variable CSS
-		_ 
+		_ Cuando se utilice una variable como valor de una propiedad CSS, puedes adjuntar un valor de respaldo o "fallback", que será utilizado por el navegador si la variable dada no es válida. 
+background: var(--penguin-skin, black);
+Esto establecerá el "background" (color de fondo) a black (negro) si tu variable no está establecida. Fíjate que esto puede ser útil para la depuración de errores.
+
 
 		1.2.41. Mejora la compatibilidad con navegadores por medio de configuraciones de respaldo o “browser fallbacks”
 		_ 
