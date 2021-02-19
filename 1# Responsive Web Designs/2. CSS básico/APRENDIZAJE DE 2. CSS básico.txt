@@ -69,9 +69,9 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		1.2.15. Usa un atributo de id para aplicar estilo a un elemento
 		_ Se cambian los colores de fondo de las letras en algunas partes a partir de los atributos id es que, al igual que las clases, puedes aplicarles estilos con CSS. Sin embargo, un “id” no es reutilizable y solo debe aplicarse a un único elemento.
 		1.2.16. Ajusta el padding (relleno) de un elemento 
-		_
+		_ Hay tres propiedades importantes que controlan el espacio que rodea cada elemento HTML: padding (relleno), border (borde) y margin (margen). El “padding” o relleno de un elemento controla la cantidad de espacio entre su contenido y su “border”.
 		1.2.17. Ajusta el margen de un elemento
-		_
+		_ Se ajusta el margen de los elementos con el “margin” (margen) de un elemento controla la cantidad de espacio entre su “border” y los elementos que lo rodean. 
 		1.2.18. Añade un margen negativo a un elemento
 		_
 		1.2.19. Añade un “padding” o relleno diferente a cada lado de un elemento
