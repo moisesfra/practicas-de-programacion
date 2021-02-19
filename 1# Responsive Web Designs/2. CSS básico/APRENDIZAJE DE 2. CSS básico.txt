@@ -173,7 +173,7 @@ Esto establecerá el "background" (color de fondo) a black (negro) si tu variable
 		_ Se usa un “background” justo antes de la declaración existente, y estableciendo este valor de respaldo como “ red” (rojo). Para aumentar la compatibilidad entre los distintos navegadores.
 
 		1.2.42. Hereda variables CSS
-		_ 
+		_ Se aprende de,” :root “ es un "pseudo-class selector" (selector de pseudo-clase) que corresponde al elemento raíz o "root" del documento, que generalmente es el elemento html. Al crear tus variables en :root, estarán disponibles globalmente y se podrán acceder desde cualquier otro selector en la hoja de estilo. 
 
 		1.2.43. Cambia una variable para un área específica 
 		_ 
