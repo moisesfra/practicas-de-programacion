@@ -118,7 +118,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Se pone todo el fondo de Negro, con toda la página HTML tiene un elemento “body”. 
 
 		1.2.26. Hereda estilos del elemento body
-		_
+		_ Se ponen letricas verdes
 
 		1.2.27. Prioriza un estilo por sobre otro
 		_ 
