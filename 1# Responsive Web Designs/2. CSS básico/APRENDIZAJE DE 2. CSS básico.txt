@@ -155,7 +155,7 @@ El valor RGB del color blanco se ve así:
 		_ Se mezclan los colores en textos mediante el código en RGB en CSS.
 
 		1.2.37. Usa variables CSS para modificar varios elementos a la vez
-		_ 
+		_ Las Variables CSS son una manera poderosa de modificar varias propiedades de estilos CSS a la vez, cambiando su valor en un único sitio. 
 
 		1.2.38. Crea una variable de CSS personalizada
 		_ 
