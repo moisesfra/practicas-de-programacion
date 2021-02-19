@@ -139,7 +139,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ En CSS, podemos representar colores utilizando 6 dígitos hexadecimales, dos para los componentes de rojo (R), verde (G) y azul (B). Por ejemplo, #000000 corresponde al color negro, y también es el valor más bajo posible. 
 
 		1.2.33. Utiliza código hexadecimal (hex code) para mezclar colores
-		_ 
+		_  Se prueban varios colores por secciones de textos.
 
 		1.2.34. Usa código hexadecimal (hex code) abreviado
 		_
