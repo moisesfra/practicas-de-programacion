@@ -145,10 +145,14 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Se prueban varios colores por secciones de textos, pero de forma abreviada.
 
 		1.2.35. Utiliza valores RGB para asignar color a los elementos 
-		_ 
+		_ Otra forma de representar colores en CSS es utilizar valores RGB. El valor RGB del color negro se ve así:
+	rgb(0, 0, 0)
+El valor RGB del color blanco se ve así:
+	rgb(255, 255, 255)
+
 
 		1.2.36. Utiliza RGB para mezclar colores 
-		_
+		_ 
 
 		1.2.37. Usa variables CSS para modificar varios elementos a la vez
 		_ 
@@ -160,10 +164,10 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ 
 
 		1.2.40. Agregar un valor de respaldo (fallback) a una variable CSS
-		_
+		_ 
 
 		1.2.41. Mejora la compatibilidad con navegadores por medio de configuraciones de respaldo o “browser fallbacks”
-		_
+		_ 
 
 		1.2.42. Hereda variables CSS
 		_ 
