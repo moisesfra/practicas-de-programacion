@@ -121,7 +121,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Se ponen letricas verdes
 
 		1.2.27. Prioriza un estilo por sobre otro
-		_ 
+		_ A veces los elementos HTML reciben múltiples estilos que entran en conflicto entre sí. 
 
 		1.2.28. Sobrescribe estilos en código CSS posterior
 		_
