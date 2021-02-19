@@ -115,7 +115,7 @@ Estos cuatro valores se leen en el sentido de las agujas del reloj: arriba, dere
 Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud. Por ejemplo,”em” se basa en el tamaño de fuente de un elemento. Si la utilizas para establecer la propiedad font-size, es relativa al font-size del elemento padre . 
 
 		1.2.25. Aplica un estilo el elemento HTML body
-		_ 
+		_ Se pone todo el fondo de Negro, con toda la página HTML tiene un elemento “body”. 
 
 		1.2.26. Hereda estilos del elemento body
 		_
