@@ -108,7 +108,7 @@ Estos cuatro valores se leen en el sentido de las agujas del reloj: arriba, dere
 		_ Es lo mismo que en el 21 pero con esta vez con “margin”. 
 
 		1.2.23. Usa selectores de atributos para dar estilos a elementos
-		_
+		_ Fue un auténtico Quebradero DE Cabeza, ya que no sabía como asignar desde (dentro de un “style”) para modificar los márgenes de los checkbox. Y que no me especificaba exactamente como hacer la tarea y de pana que me estaba cansando ya de este ejercicio. Y luego me dí cuenta que se agregaba dentro de el (style), para poder hacer las asignaciones de los checkbox del “App del Gatico2” para poder hacer los márgenes de todos los checkboxing.
 
 		1.2.24. Unidades absolutas y relativas de medida
 		_
