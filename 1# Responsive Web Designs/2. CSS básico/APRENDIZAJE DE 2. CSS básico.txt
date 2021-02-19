@@ -169,9 +169,8 @@ Esto cambiará el fondo de cualquier elemento que utilice esta variable a "gray" 
 background: var(--penguin-skin, black);
 Esto establecerá el "background" (color de fondo) a black (negro) si tu variable no está establecida. Fíjate que esto puede ser útil para la depuración de errores.
 
-
 		1.2.41. Mejora la compatibilidad con navegadores por medio de configuraciones de respaldo o “browser fallbacks”
-		_ 
+		_ Se usa un “background” justo antes de la declaración existente, y estableciendo este valor de respaldo como “ red” (rojo). Para aumentar la compatibilidad entre los distintos navegadores.
 
 		1.2.42. Hereda variables CSS
 		_ 
