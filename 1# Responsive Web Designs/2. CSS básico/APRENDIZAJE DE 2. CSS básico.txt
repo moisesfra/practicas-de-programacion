@@ -111,7 +111,8 @@ Estos cuatro valores se leen en el sentido de las agujas del reloj: arriba, dere
 		_ Fue un auténtico Quebradero DE Cabeza, ya que no sabía como asignar desde (dentro de un “style”) para modificar los márgenes de los checkbox. Y que no me especificaba exactamente como hacer la tarea y de pana que me estaba cansando ya de este ejercicio. Y luego me dí cuenta que se agregaba dentro de el (style), para poder hacer las asignaciones de los checkbox del “App del Gatico2” para poder hacer los márgenes de todos los checkboxing.
 
 		1.2.24. Unidades absolutas y relativas de medida
-		_
+		_ Los dos tipos principales de unidades de longitud son las unidades absolutas y relativas. Las unidades absolutas están relacionadas con unidades físicas de longitud. Por ejemplo, “in” y “mm” se refieren a pulgadas y milímetros, respectivamente. Las unidades de longitud absoluta aproximan la medición real sobre una pantalla, pero existen cierta variación que depende de la resolución de la pantalla utilizada. 
+Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud. Por ejemplo,”em” se basa en el tamaño de fuente de un elemento. Si la utilizas para establecer la propiedad font-size, es relativa al font-size del elemento padre . 
 
 		1.2.25. Aplica un estilo el elemento HTML body
 		_ 
