@@ -65,9 +65,9 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		1.2.13. Establece el color de fondo de un elemento div
 		_ Se puede establecer el color de fondo de un elemento con la propiedad “background-color”. 
 		1.2.14. Establece el id de un elemento
-		_ 
+		_ Las clases, cada elemento HTML también puede tener un atributo “id”.Existen varios beneficios de usar atributos de “id”: Puedes usar un “id” para dar estilo a un elemento específico; más adelante aprenderás que puedes usar atributos "id" para seleccionar y modificar elementos específicos por medio de JavaScript.Los atributos ”id” deben ser únicos. Los navegadores no verifican esta regla, pero es una buena práctica ampliamente aceptada. Entonces, por favor ten cuidado de no asignar a más de un elemento el mismo atributo “id”.
 		1.2.15. Usa un atributo de id para aplicar estilo a un elemento
-		_
+		_ 
 		1.2.16. Ajusta el padding (relleno) de un elemento 
 		_
 		1.2.17. Ajusta el margen de un elemento
