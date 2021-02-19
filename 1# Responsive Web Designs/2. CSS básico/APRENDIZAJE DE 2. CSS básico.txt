@@ -127,7 +127,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Ahora lo sobre-esribimos en css, las letras en color por 2da vez.
 
 		1.2.29. Sobrescribe declaraciones de clase dando estilo a atributos ID
-		_ 
+		_ Se trata sobre de comprobar que los navegadores leen CSS desde arriba hacia abajo siguiendo el orden de las declaraciones. Por lo tanto, si llega a ocasionarse un conflicto, el navegador utilizará la última declaración CSS. 
 
 		1.2.30. Sobrescribe declaraciones de clase con inline styles (estilos de línea)
 		_ 
