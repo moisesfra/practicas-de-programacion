@@ -94,7 +94,8 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		_ En ocasiones, querrás personalizar un elemento para que tenga un “padding” o relleno diferente en cada uno de sus lados. CSS te permite controlar por separado el “padding” de los cuatro lados individuales de un elemento por medio de las propiedades “padding-top”, “padding-right”, “padding-bottom” y “padding-left”.
 
 		1.2.20. Añade márgenes diferentes a cada lado de un elemento
-		_
+		_ Se puede personalizar un elemento para que tenga un “margin” diferente en cada uno de sus lados. CSS te permite controlar por separado el “margin” de los cuatro lados individuales de un elemento por medio de las propiedades “margin-top”, “margin-right”, “margin-bottom” y “margin-left”.
+
 
 		1.2.21. Utiliza clockwise notation para especificar el relleno (padding) de un elemento
 		_
