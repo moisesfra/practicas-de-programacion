@@ -136,7 +136,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Para que un color sea permanente y no se cambie se usa   !important .En muchas situaciones usarás librerías de CSS. Estas librerías pueden sobreescribir accidentalmente tu propio código CSS. Entonces, cuando necesites asegurarte de que a un elemento se le aplique un código CSS específico, puedes usar !important.
 
 		1.2.32. Utiliza código hexadecimal (hex code) para indicar colores específicos
-		_ 
+		_ En CSS, podemos representar colores utilizando 6 dígitos hexadecimales, dos para los componentes de rojo (R), verde (G) y azul (B). Por ejemplo, #000000 corresponde al color negro, y también es el valor más bajo posible. 
 
 		1.2.33. Utiliza código hexadecimal (hex code) para mezclar colores
 		_
