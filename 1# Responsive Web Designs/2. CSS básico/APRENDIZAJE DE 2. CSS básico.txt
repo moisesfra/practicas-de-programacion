@@ -176,8 +176,8 @@ Esto establecerá el "background" (color de fondo) a black (negro) si tu variable
 		_ Se aprende de,” :root “ es un "pseudo-class selector" (selector de pseudo-clase) que corresponde al elemento raíz o "root" del documento, que generalmente es el elemento html. Al crear tus variables en :root, estarán disponibles globalmente y se podrán acceder desde cualquier otro selector en la hoja de estilo. 
 
 		1.2.43. Cambia una variable para un área específica 
-		_ 
-
+		_ Cuando creas tus variables en “ :root “, el valor de esa variable quedará establecido para toda la página.
+Luego podrás sobreescribir estas variables, configurándolas de nuevo dentro de un elemento específico.
 		1.2.44. Usa un media query para cambiar una variable
 		_ 
 
