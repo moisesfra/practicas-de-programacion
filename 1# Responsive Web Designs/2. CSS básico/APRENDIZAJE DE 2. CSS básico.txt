@@ -179,6 +179,7 @@ Esto establecerá el "background" (color de fondo) a black (negro) si tu variable
 		_ Cuando creas tus variables en “ :root “, el valor de esa variable quedará establecido para toda la página.
 Luego podrás sobreescribir estas variables, configurándolas de nuevo dentro de un elemento específico.
 		1.2.44. Usa un media query para cambiar una variable
-		_ 
+		_ Las variables CSS pueden simplificar la forma en que utilizas "media queries" (consultas sobre el tipo de dispositivo donde se muestra el documento HTML). Por ejemplo, cuando la pantalla es más pequeña o más grande que el breakpoint de tu media query, puedes cambiar el valor de una variable, y su estilo se aplicará dondequiera que la utilices.
+
 
 
