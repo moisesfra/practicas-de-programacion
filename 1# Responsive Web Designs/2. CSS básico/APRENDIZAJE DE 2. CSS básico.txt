@@ -98,51 +98,78 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 
 
 		1.2.21. Utiliza clockwise notation para especificar el relleno (padding) de un elemento
-		_
+		_ En lugar de especificar las propiedades padding-top, padding-right, padding-bottom, y padding-left individualmente, puedes especificarlas todas en una sola línea, como se muestra a continuación:
+
+padding: 10px 20px 10px 20px; 
+
+Estos cuatro valores se leen en el sentido de las agujas del reloj: arriba, derecha, abajo, izquierda, (top, right, bottom, left) y producirán exactamente el mismo resultado que usar las instrucciones específicas de padding.
+
 		1.2.22. Utiliza clockwise notation para especificar el margen de un elemento
 		_
+
 		1.2.23. Usa selectores de atributos para dar estilos a elementos
 		_
+
 		1.2.24. Unidades absolutas y relativas de medida
 		_
+
 		1.2.25. Aplica un estilo el elemento HTML body
 		_ 
+
 		1.2.26. Hereda estilos del elemento body
 		_
+
 		1.2.27. Prioriza un estilo por sobre otro
 		_ 
+
 		1.2.28. Sobrescribe estilos en código CSS posterior
 		_
+
 		1.2.29. Sobrescribe declaraciones de clase dando estilo a atributos ID
 		_ 
+
 		1.2.30. Sobrescribe declaraciones de clase con inline styles (estilos de línea)
 		_ 
+
 		1.2.31. Sobrescribe todos los demás estilos usando !important
 		_
+
 		1.2.32. Utiliza código hexadecimal (hex code) para indicar colores específicos
 		_ 
+
 		1.2.33. Utiliza código hexadecimal (hex code) para mezclar colores
 		_
+
 		1.2.34. Usa código hexadecimal (hex code) abreviado
 		_
+
 		1.2.35. Utiliza valores RGB para asignar color a los elementos 
 		_ 
+
 		1.2.36. Utiliza RGB para mezclar colores 
 		_
+
 		1.2.37. Usa variables CSS para modificar varios elementos a la vez
 		_ 
+
 		1.2.38. Crea una variable de CSS personalizada
 		_ 
+
 		1.2.39. Utiliza una variable de CSS personalizada
 		_ 
+
 		1.2.40. Agregar un valor de respaldo (fallback) a una variable CSS
 		_
+
 		1.2.41. Mejora la compatibilidad con navegadores por medio de configuraciones de respaldo o “browser fallbacks”
 		_
+
 		1.2.42. Hereda variables CSS
 		_ 
+
 		1.2.43. Cambia una variable para un área específica 
 		_ 
+
 		1.2.44. Usa un media query para cambiar una variable
 		_ 
 
