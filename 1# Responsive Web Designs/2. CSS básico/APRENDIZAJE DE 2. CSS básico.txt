@@ -7,6 +7,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		_ Se aprende a usar CSS para cambiar de colores las letras, cambaindo el "style" en los elementos como ejemplo h2.
 		<h2 style="color: blue;">CatPhotoApp</h2>
 		*NOTA: Ten en cuenta que es una buena práctica terminar las declaraciones de inline "style" usando punto y coma (;).
+
 		1.2.2.  Utiliza selectores CSS para dar estilo a elementos
 		_ Inline CSS es una de las formas de especificar el estilo de un elemento, pero existe una mejor forma de aplicar estilos CSS.
 		Se crea un bloque style como el que se ve a continuación:
@@ -21,6 +22,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		</style>
 		Ten en cuenta que es importante tener tanto llaves de apertura como de cierre ("{" y "}") alrededor de la(s) regla(s) de estilo de cada elemento.
 		Además asegúrate de añadir un punto y coma (;) al final de cada una de las reglas de estilo de tu elemento.
+
 		1.2.3.  Usa una clase CSS para aplicar estilos a un elemento
 		_ Se aprende sobre el cómo declarar una clase CSS; por ejemplo:
 		<style>
@@ -28,6 +30,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
   		  color: blue;
   		}
 		</style>
+
 		1.2.4.  Aplica un estilo a múltiples elementos usando una clase CSS
 		_ Se aprende sobre que el aplicar la clase "red-text" en los elementos "p". POR EJEMPLO:
 		<p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
@@ -36,6 +39,7 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		h1 {
 		  font-size: 30px;
 		}
+
 		1.2.6.  Establece la familia de fuentes de un elemento
 		_ Se aprende sobre la propiedad "font-family" (familia de fuente) para establecer qué fuente debe usar un elemento.
 		ES DECIR, para poder configurar a través de CSS, para el tipo de "Letrica" en las letras para el texto.
@@ -43,8 +47,11 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		h2 {
 		  font-family: sans-serif;
 		}
+
+
 		1.2.7.  Importa una fuente de Google Fonts
 		_ Se aprende a como importar una fuente de Google Fonts, para la web.
+
 		1.2.8. Especifica cómo deben degradarse las fuentes
 		_ Se especifica el como degradar fuentes, cuando la fuente NO está disponible en el sistema.Por ejemplo, si quieres 
 		que un elemento utilice la fuente "Helvetica" pero que degrade a la fuente "sans-serif" en caso que "Helvetica" no esté 
@@ -52,28 +59,37 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		p {
 		  font-family: Helvetica, sans-serif;
 		}
-		NOTA: Los nombres de las fuentes genéricas no distinguen entre mayúsculas y minúsculas. Además, no se necesitan 
-		comillas porque son palabras clave CSS.
+		NOTA: Los nombres de las fuentes genéricas no distinguen entre mayúsculas y minúsculas. Además, no se necesitan comillas porque son palabras clave CSS.
+
 		1.2.9.  Cambia el tamaño de tus imágenes
 		_ Se aprende una propiedad llamada "width" controla el ancho de un elemento. (tamaño de imagen)
+
 		1.2.10. Añade bordes alrededor de tus elementos
 		_ Se añade un borde verde a la imagen, a través los bordes CSS tienen propiedades como “style” (estilo), “color” y “width” (ancho). 
+
 		1.2.11. Añade esquinas redondeadas usando border-radius
 		_ Se redondean las esquinas con una propiedad CSS llamada “border-radius” (radio del borde). 
+
 		1.2.12. Haz imágenes circulares usando border-radius (radio de borde)
 		_ También los píxeles, también puedes especificar el “border-radius” usando un porcentaje. 
+
 		1.2.13. Establece el color de fondo de un elemento div
 		_ Se puede establecer el color de fondo de un elemento con la propiedad “background-color”. 
+
 		1.2.14. Establece el id de un elemento
 		_ Las clases, cada elemento HTML también puede tener un atributo “id”.Existen varios beneficios de usar atributos de “id”: Puedes usar un “id” para dar estilo a un elemento específico; más adelante aprenderás que puedes usar atributos "id" para seleccionar y modificar elementos específicos por medio de JavaScript.Los atributos ”id” deben ser únicos. Los navegadores no verifican esta regla, pero es una buena práctica ampliamente aceptada. Entonces, por favor ten cuidado de no asignar a más de un elemento el mismo atributo “id”.
+
 		1.2.15. Usa un atributo de id para aplicar estilo a un elemento
 		_ Se cambian los colores de fondo de las letras en algunas partes a partir de los atributos id es que, al igual que las clases, puedes aplicarles estilos con CSS. Sin embargo, un “id” no es reutilizable y solo debe aplicarse a un único elemento.
+
 		1.2.16. Ajusta el padding (relleno) de un elemento 
 		_ Hay tres propiedades importantes que controlan el espacio que rodea cada elemento HTML: padding (relleno), border (borde) y margin (margen). El “padding” o relleno de un elemento controla la cantidad de espacio entre su contenido y su “border”.
+
 		1.2.17. Ajusta el margen de un elemento
 		_ Se ajusta el margen de los elementos con el “margin” (margen) de un elemento controla la cantidad de espacio entre su “border” y los elementos que lo rodean. 
 		1.2.18. Añade un margen negativo a un elemento
-		_
+		_ Se añade margen negativos con el “margin” (margen) de un elemento controla la cantidad de espacio entre su “border” y los elementos que lo rodean. Si estableces el “margin” de un elemento a un valor negativo, el elemento crecerá de tamaño.
+
 		1.2.19. Añade un “padding” o relleno diferente a cada lado de un elemento
 		_
 		1.2.20. Añade márgenes diferentes a cada lado de un elemento
