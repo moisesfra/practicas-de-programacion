@@ -105,7 +105,7 @@ padding: 10px 20px 10px 20px;
 Estos cuatro valores se leen en el sentido de las agujas del reloj: arriba, derecha, abajo, izquierda, (top, right, bottom, left) y producirán exactamente el mismo resultado que usar las instrucciones específicas de padding.
 
 		1.2.22. Utiliza clockwise notation para especificar el margen de un elemento
-		_
+		_ Es lo mismo que en el 21 pero con esta vez con “margin”. 
 
 		1.2.23. Usa selectores de atributos para dar estilos a elementos
 		_
