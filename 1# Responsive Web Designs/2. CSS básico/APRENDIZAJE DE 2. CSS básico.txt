@@ -142,7 +142,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_  Se prueban varios colores por secciones de textos .
 
 		1.2.34. Usa código hexadecimal (hex code) abreviado
-		_
+		_ Se prueban varios colores por secciones de textos, pero de forma abreviada.
 
 		1.2.35. Utiliza valores RGB para asignar color a los elementos 
 		_ 
