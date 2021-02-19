@@ -161,8 +161,9 @@ El valor RGB del color blanco se ve así:
 		_ Para crear una variable CSS, solo tienes que darle un nombre que comience con dos guiones (--) y asignarle un valor, como se muestra a continuación:
 --penguin-skin: gray;
 		1.2.39. Utiliza una variable de CSS personalizada
-		_ 
-
+		_ Luego de crear tu variable, puedes asignar su valor a otras propiedades CSS haciendo referencia a su nombre.
+background: var(--penguin-skin);
+Esto cambiará el fondo de cualquier elemento que utilice esta variable a "gray" (gris) porque ese es el valor de la variable “--penguin-skin”. Ten en cuenta que los estilos no se aplicarán a menos que los nombres de las variables utilizados estén escritos exactamente igual.
 		1.2.40. Agregar un valor de respaldo (fallback) a una variable CSS
 		_ 
 
