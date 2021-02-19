@@ -91,9 +91,11 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		_ Se añade margen negativos con el “margin” (margen) de un elemento controla la cantidad de espacio entre su “border” y los elementos que lo rodean. Si estableces el “margin” de un elemento a un valor negativo, el elemento crecerá de tamaño.
 
 		1.2.19. Añade un “padding” o relleno diferente a cada lado de un elemento
-		_ 
+		_ En ocasiones, querrás personalizar un elemento para que tenga un “padding” o relleno diferente en cada uno de sus lados. CSS te permite controlar por separado el “padding” de los cuatro lados individuales de un elemento por medio de las propiedades “padding-top”, “padding-right”, “padding-bottom” y “padding-left”.
+
 		1.2.20. Añade márgenes diferentes a cada lado de un elemento
 		_
+
 		1.2.21. Utiliza clockwise notation para especificar el relleno (padding) de un elemento
 		_
 		1.2.22. Utiliza clockwise notation para especificar el margen de un elemento
