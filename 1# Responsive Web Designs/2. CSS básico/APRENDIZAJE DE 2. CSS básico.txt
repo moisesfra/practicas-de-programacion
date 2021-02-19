@@ -158,8 +158,8 @@ El valor RGB del color blanco se ve así:
 		_ Las Variables CSS son una manera poderosa de modificar varias propiedades de estilos CSS a la vez, cambiando su valor en un único sitio. 
 
 		1.2.38. Crea una variable de CSS personalizada
-		_ 
-
+		_ Para crear una variable CSS, solo tienes que darle un nombre que comience con dos guiones (--) y asignarle un valor, como se muestra a continuación:
+--penguin-skin: gray;
 		1.2.39. Utiliza una variable de CSS personalizada
 		_ 
 
