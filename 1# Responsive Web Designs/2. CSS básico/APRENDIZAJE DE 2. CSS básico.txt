@@ -133,7 +133,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Se ponen las letras blancas con las declaraciones de “id” tienen prioridad por sobre las declaraciones de clase, independientemente de dónde hayan sido declaradas en el código CSS del elemento “style”. 
 
 		1.2.31. Sobrescribe todos los demás estilos usando !important
-		_
+		_ Para que un color sea permanente y no se cambie se usa   !important .En muchas situaciones usarás librerías de CSS. Estas librerías pueden sobreescribir accidentalmente tu propio código CSS. Entonces, cuando necesites asegurarte de que a un elemento se le aplique un código CSS específico, puedes usar !important.
 
 		1.2.32. Utiliza código hexadecimal (hex code) para indicar colores específicos
 		_ 
