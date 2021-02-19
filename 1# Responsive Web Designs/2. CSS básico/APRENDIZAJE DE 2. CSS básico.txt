@@ -130,7 +130,7 @@ Las unidades relativas, como “em”o “rem” son relativas a otro valor de longitud.
 		_ Se trata sobre de comprobar que los navegadores leen CSS desde arriba hacia abajo siguiendo el orden de las declaraciones. Por lo tanto, si llega a ocasionarse un conflicto, el navegador utilizará la última declaración CSS. 
 
 		1.2.30. Sobrescribe declaraciones de clase con inline styles (estilos de línea)
-		_ 
+		_ Se ponen las letras blancas con las declaraciones de “id” tienen prioridad por sobre las declaraciones de clase, independientemente de dónde hayan sido declaradas en el código CSS del elemento “style”. 
 
 		1.2.31. Sobrescribe todos los demás estilos usando !important
 		_
