@@ -7,7 +7,10 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 		_ Se aprende sobre la propiedad “text-align” para poner texto centrado,justificado, a la izquierda o la derecha. 
 
 		1.3.2.  Ajusta el ancho de un elemento utilizando la propiedad width
-		_ 
+		_ El ancho de un elemento con la propiedad width en CSS. Los valores se pueden dar en unidades de longitud relativa (como “em”, unidades de longitud absoluta (como “px”, o como un porcentaje de su elemento padre contenedor. El siguiente ejemplo cambia el ancho de una imagen a 220px:
+img {
+  width: 220px;
+}
 
 		1.3.3.  Ajusta la altura de un elemento utilizando la propiedad height
 		_ 
