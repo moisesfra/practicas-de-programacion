@@ -47,11 +47,15 @@ r = red
 g = green
 b = blue
 a = alfa/nivel de opacidad
-Los valores RGB pueden variar de 0 a 255. El valor alfa puede variar de 1, que es completamente opaco o un color sólido, a 0, que es completamente transparente o claro. rgba() es ideal para usar en este caso, ya que te permite ajustar la opacidad. Esto significa que no tienes que bloquear completamente el fondo.
+Ejemplo:
+background-color: rgba(45, 45, 45, 0.1) 
+Los valores RGB pueden variar de 0 a 255. El valor alfa puede variar de 1, que es completamente opaco o un color sólido, a 0, que es completamente transparente o claro. rgba() es ideal para usar en este caso, ya que te permite ajustar la opacidad. Esto significa que no tienes que bloquear completamente el fondo. 
 
 
 		1.3.10. Ajusta el tamaño de un título contra una etiqueta de párrafo
-		_ 
+		_ El tamaño de fuente de las etiquetas de encabezado (h1 a h6) generalmente debería ser mayor que el tamaño de fuente de las etiquetas de párrafos. Esto hace que sea más sencillo para que el usuario entienda visualmente el diseño y el nivel de importancia de cada elemento en la página. Utiliza la propiedad font-size para ajustar el tamaño del texto en un elemento.
+
+
 
 		1.3.11. Agrega box-shadow a un elemento tipo tarjeta 
 		_ 
