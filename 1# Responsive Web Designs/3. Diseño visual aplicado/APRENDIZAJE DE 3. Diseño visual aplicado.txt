@@ -31,7 +31,8 @@ Hola <u>Mundo loco</u>
 Hola <em>Mundo loco</em>
 
 		1.3.7.  Usa la etiqueta s para tachar texto 
-		_
+		_ Para tachar el texto, que es cuando una línea horizontal atraviesa los caracteres, puede usar la etiqueta “s”. Muestra que una sección de texto ya no es válida. Con la etiqueta “s”, el navegador aplica el CSS de text-decoration: line-through; al elemento. Ejemplo:
+<h4><s>Google</s></h4>
 
 		1.3.8.  Crea una línea horizontal usando el elemento hr 
 		_ 
