@@ -13,8 +13,11 @@ img {
 }
 
 		1.3.3.  Ajusta la altura de un elemento utilizando la propiedad height
-		_ 
-		
+		_ Se especifica la altura de un elemento con la propiedad height en CSS como lo haces con la propiedad width (ancho). En el siguiente ejemplo, se cambia la altura de una imagen a 20px:
+img {
+  height: 20px;
+}
+
 		1.3.4.  Utiliza la etiqueta strong para poner el texto en negrita
 		_ 
 
