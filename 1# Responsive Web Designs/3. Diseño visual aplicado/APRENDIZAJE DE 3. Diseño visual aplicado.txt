@@ -78,7 +78,7 @@ El valor dado se aplicará a todo el elemento, ya sea una imagen con cierta trans
 opacity: 0.7;
 		
 		1.3.13. Usa la propiedad text-transform para hacer el texto mayúsculas
-		_ 
+		_ La propiedad “text-transform” en CSS se utiliza para cambiar la apariencia del texto. Es una forma conveniente de asegurarse de que el texto en una página web aparezca de manera consistente, sin tener que cambiar el contenido del texto de los elementos HTML reales.
 		
 		1.3.14. Establece el tamaño de fuente para varios elementos de títulos
 		_ 
