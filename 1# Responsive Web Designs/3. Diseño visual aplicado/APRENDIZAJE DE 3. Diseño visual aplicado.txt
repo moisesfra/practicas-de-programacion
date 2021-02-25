@@ -106,10 +106,8 @@ p {
   bottom: 10px;
 }
 Cambiando la posición de un elemento a relative no lo quita del flujo normal; otros elementos a su alrededor aún se comportarán como si dicho elemento estuviera en su posición predeterminada.
-
-
 		1.3.20. Mueve un elemento posicionado relativamente con desplazamientos de CSS 
-		_ 
+		_ Los desplazamientos CSS de “top” o “bottom” y “left” o “right” indican al navegador hasta que punto debe compensar un elemento en relación con el lugar donde se ubicara en el flujo normal del documento. Está compensando un elemento lejos de un punto dado, lo que aleja el elemento del lado al que se hace referencia (efectivamente, en la dirección opuesta). Como viste en el último desafío, usando el desplazamiento “top” movió el “h2” hacia abajo. Del mismo modo, usando un desplazamiento “left” mueve un elemento hacia la derecha. 
 
 		1.3.21. Bloquea un elemento con relación a su padre con el posicionamiento absoluto 
 		_ 
