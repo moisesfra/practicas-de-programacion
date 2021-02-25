@@ -99,9 +99,14 @@ a:hover {
   color: red;
 }
 
-
 		1.3.19. Cambia la posición relativa de un elemento 
-		_ 
+		_ Cuando la posición de un elemento se establece a “relative”, te permite especificar como CSS lo moverá relativo a su posición actual dentro del flujo normal de la página. Se empareja con las propiedades de desplazamiento CSS de left o right, y top o bottom. Estas dicen cuántos pixeles, porcentajes, o ems se debe mover el elemento lejos de donde esté normalmente posicionado. El siguiente ejemplo mueve el párrafo 10 pixeles lejos de la parte inferior:
+p {
+  position: relative;
+  bottom: 10px;
+}
+Cambiando la posición de un elemento a relative no lo quita del flujo normal; otros elementos a su alrededor aún se comportarán como si dicho elemento estuviera en su posición predeterminada.
+
 
 		1.3.20. Mueve un elemento posicionado relativamente con desplazamientos de CSS 
 		_ 
