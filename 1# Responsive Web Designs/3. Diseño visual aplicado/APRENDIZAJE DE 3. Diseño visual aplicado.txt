@@ -35,7 +35,10 @@ Hola <em>Mundo loco</em>
 <h4><s>Google</s></h4>
 
 		1.3.8.  Crea una línea horizontal usando el elemento hr 
-		_ 
+		_ Se puede usar la etiqueta “hr” para agregar una línea horizontal a través del ancho de su elemento contenedor. Esto se puede usar para definir un cambio de tema o para separa grupos de contenido visualmente. Ejemplo:
+<h4><s>Google</s> Alphabet</h4>
+<hr>
+<h5>Holis xD</h5>
 
 		1.3.9.  Ajusta la propiedad background-color del texto 
 		_
