@@ -93,7 +93,12 @@ La propiedad “font-weight” establece que tan gruesos o delgados son los caracter
 		_ CSS ofrece la propiedad “line-height” para cambiar la altura de cada línea en un bloque de texto. Como sugiere el nombre, cambia la cantidad de espacio vertical que recibe cada línea de texto. 
 
 		1.3.18. Ajusta el hover de una etiqueta anchor 
-		_ 
+		_ El uso de las pseudo-clases es una palabra clave que se puede agregar a los selectores para seleccionar un estado específico de un elemento.
+Por ejemplo, el estilo de una etiqueta "anchor" puede ser cambiado por el estado de su hover utilizando el selector de pseudo-clase :hover. Aquí está el CSS para cambiar el color “color” de la etiqueta de "anchor" a rojo durante el estado hover:
+a:hover {
+  color: red;
+}
+
 
 		1.3.19. Cambia la posición relativa de un elemento 
 		_ 
