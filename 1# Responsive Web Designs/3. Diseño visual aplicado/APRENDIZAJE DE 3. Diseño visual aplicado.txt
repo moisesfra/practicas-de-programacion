@@ -90,7 +90,7 @@ La propiedad “font-weight” establece que tan gruesos o delgados son los caracter
 		_  La propiedad “font-size” en CSS no se limita a los títulos, se puede aplicar a cualquier elemento que contenga texto. 
 
 		1.3.17. Establece la line-height de los párrafos 
-		_ 
+		_ CSS ofrece la propiedad “line-height” para cambiar la altura de cada línea en un bloque de texto. Como sugiere el nombre, cambia la cantidad de espacio vertical que recibe cada línea de texto. 
 
 		1.3.18. Ajusta el hover de una etiqueta anchor 
 		_ 
