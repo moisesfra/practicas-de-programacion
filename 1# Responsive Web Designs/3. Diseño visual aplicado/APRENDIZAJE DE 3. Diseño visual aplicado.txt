@@ -84,8 +84,8 @@ opacity: 0.7;
 		_ La propiedad “font-size” se usa para especificar que tan grande es el texto en un elemento dado. Esta regla se puede utilizar para varios elementos para crear coherencia visual del texto en una página.
 
 		1.3.15. Establece el font-weight para varios elementos de títulos 
-		_ 
-		
+		_ Se establece el “font-size” de cada etiqueta de título en el último desafío, aquí podrás ajustar el “font-weight”.
+La propiedad “font-weight” establece que tan gruesos o delgados son los caracteres en una sección de texto.
 		1.3.16. Establece el tamaño de fuente del texto del párrafo
 		_  
 
