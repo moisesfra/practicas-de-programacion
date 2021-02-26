@@ -27,11 +27,15 @@ Un punto final, cada página siempre debe tener un (y solo un) elemento “h1”, que
 		El elemento “main” se usa para envolver (lo adivinaste) el contenido principal, y solo debe haber uno por página. Está destinado a rodear la información que está relacionada con el tema central de su página. No está destinado a incluir elementos que se repiten en todas las páginas, como enlaces de navegación o banners.
 		La etiqueta “main” también tiene una característica de referencia insertada que la tecnología de asistencia puede usar para navegar rápidamente al contenido principal. Si alguna vez has visto un enlace de "saltar al contenido principal" en la parte superior de una página, el uso de una etiqueta “main” proporciona automáticamente esa funcionalidad a los dispositivos de asistencia.
 		1.4.5.  Envuelve el contenido en el elemento article
-		_ 
-
+		_ “article” es otro de los nuevos elementos HTML5 que agrega significado semántico a tu lenguaje de marcado.”article” es un elemento de sección, y se utiliza para envolver contenido independiente y autónomo. La etiqueta funciona bien con entradas de blog, publicaciones en el foro o artículos de noticias.
+Determinar si el contenido puede estar solo suele ser una decisión complicada, pero hay un par de pruebas simples que puedes usar. Pregúntate, si elimino todo el contexto circundante, ¿ese contenido aún tendría sentido? Del mismo modo para el texto, ¿el contenido se mantendría si estuviera en una fuente RSS?
+Recuerda que las personas que usan tecnologías de asistencia dependen de un lenguaje de marcado organizado y semánticamente significativo para comprender mejor su trabajo.
+Nota: El elemento “section” también es nuevo HTML5, y tiene significado semántico ligeramente diferente al de “article”. Un “article” es para contenido independiente, y una “section” es para agrupar contenido relacionado temáticamente. Se pueden usar uno dentro del otro, según sea necesario. Por ejemplo, si un libro es el “article”, entonces cada capítulo es una “section”. Cuando no haya relación entre grupos de contenido, usa un “div”.
+“ <div> “- grupos de contenido “ <section> “- grupos de contenido relacionado ” <article> “- grupos independientes, contenido autónomo
 		1.4.6.  Haz que la navegación del lector de pantalla sea más fácil con el encabezado Landmark
-		_ 
-		
+		_ El siguiente elemento HTML5 que agrega significado semántico y mejora la accesibilidad es la etiqueta “header”. Se usa para envolver información introductoria o enlaces de navegación para su etiqueta principal y funciona bien con el contenido que se repite en la parte superior en varias páginas.
+“header” comparte la función landmark integrada que viste con “main”, lo que permite a las tecnologías de asistencia navegar rápidamente a ese contenido.
+Nota:El “header” está diseñado para usarse dentro de la etiqueta “body” de tu documento HTML. Esto es diferente al elemento “head”, que contiene el título de la página, metainformación, etc.
 		1.4.7.  Haz que la navegación del lector de pantalla sea más fácil con el nav Landmark
 		_ 
 
