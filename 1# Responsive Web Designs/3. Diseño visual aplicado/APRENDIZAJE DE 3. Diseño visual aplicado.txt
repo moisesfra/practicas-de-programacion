@@ -329,4 +329,9 @@ En general, el cambio de los puntos de anclaje “p1” y “p2” impulsa la creación d
 animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
 		Recuerda que todas las funciones “cubic-bezier” comienzan con “p0” en (0, 0) y terminan con “p3” en (1, 1). En este ejemplo, la curva se mueve más rápido a través del eje Y (comienza en 0, va a “p1” y valor de 0, luego va a “p2” y valor de 1) que se mueve a través del eje X (0 para iniciar, luego 0 para “p1”, hasta 0.58 para “p2”. Como resultado, el cambio en el elemento animado progresa más rápido que el tiempo de la animación para ese segmento. Hacia el final de la curva, la relación entre el cambio en los valores X e Y se invierte: el valor y se mueve de 1 a 1 (sin cambios), y los valores X se mueven de 0.58 a 1, lo que hace que los cambios de animación progresen más lentamente en comparación con la duración de la animación.
 		1.3.52. Haz que el movimiento sea más natural usando una curva de Bezier 
-		_ 
+		_ Este desafío anima un elemento para replicar el movimiento de una pelota que se hace rebotes. Los desafíos anteriores cubrirán las curvas cúbicas de Bezier “linear” y “ease-out” , sin embargo, ninguna representa el movimiento de rebotes con precisión. Necesitas personalizar una curva de Bezier para esto.
+La función “animation-timing-function” se realiza automáticamente en cada fotograma clave (keyframe) cuando el “animation-iteration-count” se establece en infinito. Dado que hay una regla de fotogramas clave establecida en el medio de la duración de la animación (en “50%”, da como resultado dos progresiones de animación idénticas en el movimiento hacia arriba y hacia abajo de la pelota.
+La siguiente curva cúbica de Bezier simula el movimiento de rebotes:
+cubic-bezier(0.3, 0.4, 0.5, 1.6);
+Observa que el valor de y2 es mayor que 1. Aunque la curva cúbica de Bezier se mapea en un sistema de coordenadas 1 por 1, y solo puede aceptar valores x de 0 a 1, el valor y se puede establecer en números mayores que uno. Esto da como resultado un movimiento de rebote que es ideal para simular la pelota rebotando.
+
