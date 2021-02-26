@@ -126,11 +126,11 @@ Nota: Los siguientes enfoques CSS No harán lo mismo:
 		1.4.16. Mejora la legibilidad con texto de alto contraste 
 		_ El bajo contraste entre los colores de primer plano y de fondo puede dificultar la lectura del texto. El contraste suficiente mejora la legibilidad de tu contenido, pero ¿qué significa exactamente "suficiente"?
 		  Las Directrices de Accesibilidad al Contenido Web (WCAG) recomiendan al menos una relación de contraste de 4.5 a 1 para el texto normal. La relación se calcula comparando los valores de luminancia relativa de dos colores. Esto equilibra entre 1:1 para el mismo color, o sin contraste, y 21:1 para el blanco contra el negro, el contraste más fuerte. Hay muchas herramientas de comprobación de contraste disponibles en línea que calculan esta relación por ti.
-
-
 		1.4.17. Evita problemas de percepción del color usando el suficiente contraste
-		_
-		
+		_ El color es una parte importante del diseño visual, pero su aplicación presenta dos problemas de accesibilidad. El primer problema es que no se debe utilizar el color como la única forma de transmitir información importante, porque los lectores de pantalla no lo distinguen. En segundo lugar, los colores de primer plano y de fondo necesitan tener suficiente contraste para que los usuarios sean capaces de distinguirlos.
+Los desafíos anteriores explicaron la existencia de texto alternativo para remediar el primer problema. El último desafío introdujo herramientas de comprobación de contraste para ayudar con el segundo problema. El índice de contraste de 4.5:1 recomendado por WCAG se aplica tanto para los colores como para combinaciones de escalas de grises.
+Los usuarios daltónicos tienen problemas para distinguir algunos colores de otros. Esto generalmente depende del tono pero también depende a veces de su luminosidad. Posiblemente recuerdes que el índice de contraste se calcula utilizando los valores de luminancia (o luminosidad) relativa de los colores de primer plano y del fondo.
+En la práctica, la relación de contraste de 4.5:1 puede alcanzarse oscureciendo el color más oscuro (o sea, añadiendo negro) y aclarando el color más claro (añadiéndole blanco). Se considera que los tonos más oscuros en la rueda de color son los azules, violetas, magentas y los rojos, mientras que los colores más claros son los naranjas, amarillos, verdes y azul-verdosos.
 		1.4.18. Evita problemas de color para usuarios daltónicos eligiendo cuidadosamente los colores que transmiten información
 		_ 
 
