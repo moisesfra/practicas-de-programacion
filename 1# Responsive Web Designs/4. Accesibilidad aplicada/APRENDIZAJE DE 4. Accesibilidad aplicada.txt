@@ -43,7 +43,15 @@ Nota:El “header” está diseñado para usarse dentro de la etiqueta “body” de tu do
 		_ Similar a “header” y “nav”, el elemento “footer” tiene una característica de referencia incorporada que permite a los dispositivos de asistencia navegar rápidamente hacia él. Se utiliza principalmente para contener información sobre derechos de autor o enlaces a documentos relacionados que normalmente se encuentran en la parte inferior de una página. 
 
 		1.4.9.  Mejorar la accesibilidad del contenido de audio con el elemento de audio
-		_ 
+		_ El elemento ”audio” de HTLM le da un significado semántico cuando contiene sonido o contenido de flujo de audio en el código. El contenido del audio también necesita un texto alternativo para que las personas sordas o con dificultad para escuchar puedan acceder al mismo. Para esto debe tener un texto cercano en la página o un enlace a una transcripción.
+La etiqueta de “audio” suporta los atributos “controls”. Esto muestra los controles por defecto de reproducir, pausar, entre otros controles, y soporta la funcionalidad del teclado. Este es un atributo booleano por lo que no necesita un valor, su presencia en la etiqueta activa la configuración.
+Acá tenemos un ejemplo:
+<audio id="meowClip" controls>
+  <source src="audio/meow.mp3" type="audio/mpeg" />
+  <source src="audio/meow.ogg" type="audio/ogg" />
+</audio>
+Note: El contenido multimedia generalmente tiene componentes visuales y de audio. Se necesita sincronizar los subtítulos y una transcripción para que los usuarios con dificultades de vista o con problemas para escuchar puedan tener acceso a las mismas. Por lo general, un desarrollador de web no se responsabiliza de la creación de subtítulos o transcripciones pero necesita saber para incluirlos.
+
 
 		1.4.10. Mejora la accesibilidad de gráficos con el elemento figure
 		_ 
