@@ -102,7 +102,10 @@ Aquí hay un ejemplo:
 <input type="date" id="input1" name="input1">
 
 		1.4.14. Estandariza horas con el atributo HTML5 datetime
-		_ 
+		_ Continuando con el tema de fechas, HTML5 también introdujo el elemento “time” junto con un atributo “datetime” para estandarizar las horas. Este es un elemento inline que puede ajustar una fecha u hora en una página. Un formato válido de esa fecha se mantiene mediante el atributo ”datetime”. Este es el valor al que acceden los dispositivos de asistencia. Ayuda a evitar confusiones al indicar una versión estandarizada de una hora, incluso si está escrito de manera informal o coloquial en el texto.
+Aquí hay un ejemplo:
+<p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>
+
 		
 		1.4.15. Haz que los elementos solo sean visibles para un lector de pantalla mediante CSS personalizado
 		_
