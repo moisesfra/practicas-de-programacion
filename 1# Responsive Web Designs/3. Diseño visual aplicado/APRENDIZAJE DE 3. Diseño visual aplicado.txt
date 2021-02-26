@@ -230,7 +230,24 @@ Puede que recuerdes de un desafío anterior que la propiedad “box-shadow” toma va
 }
 Para que los pseudo-elements “ ::before ” y “ ::after “ funcionen correctamente, deben tener una propiedad content definida. Esta propiedad generalmente se usa para agregar cosas como una foto o texto al elemento seleccionado. Cuando se utilizan los pseudo-elements “ ::before ” y “ ::after ” para crear formas, la propiedad “content” sigue siendo necesaria, pero se establece en una cadena vacía. En el ejemplo anterior, el elemento con la clase de “heart” tiene un pseudo-element “ ::before ” que produce un rectángulo amarillo con una altura y un ancho de “50px” y “70px”, respectivamente. Este rectángulo tiene esquinas redondeadas debido a su 25% “border-radius” y está posicionado absolutamente a “5px” desde la izquierda y “50px” por encima de la parte superior del elemento.
 		1.3.40. Aprende como funcionan las propiedades de CSS @keyframes y animación 
-		_ 
+		_ Para animar un elemento, necesitas conocer las propiedades de animación y la regla @keyframes. Las propiedades de animación controlan como debe comportarse la animación y la regla @keyframes controla lo que sucede durante esa animación. Hay ocho propiedades de animación en total. Este desafío lo mantendrá simple y cubrirá primero los dos más importantes:
+animation-name establece el nombre de la animación, que luego es utilizada por @keyframes para decirle a CSS que reglas van con que animaciones.
+Animation-duration establece el tiempo de la animación.
+@keyframes es como especificar exactamente lo que sucede dentro de la animación durante la duración. Esto se hace dando propiedades CSS para "marcos" específicos durante la animación, con porcentajes que van del 0% al 100%. Si comparas esto con una película, las propiedades de CSS de 0% es como se muestra el elemento en la escena inicial. Las propiedades de CSS con 100% es como aparece el elemento al final, justo antes de que rueden los créditos. Luego, CSS aplica la magia para hacer la transición del elemento durante la duración dada para representar la escena. Aquí hay un ejemplo para ilustrar el uso de @keyframes y las propiedades de animación:
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
 		
 		1.3.41. Usa animación CSS para cambiar el estado del desplazamiento de un botón 
 		_ 
