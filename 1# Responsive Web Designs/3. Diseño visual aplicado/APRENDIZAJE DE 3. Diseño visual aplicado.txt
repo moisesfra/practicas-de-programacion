@@ -268,8 +268,9 @@ Aquí hay un ejemplo de como cambiar el ancho de una imagen al pasar sobre ella:
 
 		
 		1.3.42. Modifica el modo de relleno de una animación (animation-fill-mode) 
-		_ 
-		
+		_ Observa como la animación se restablece después de que haya pasado 500ms, haciendo que el botón vuelva al color original. Lo que quieres es que el botón permanezca resaltado.
+Esto se puede hacer estableciendo la propiedad animation-fill-mode en forwards. El animation-fill-mode especifica el estilo aplicado a un elemento cuando la animación ha finalizado. Puedes configurarlo así:
+animation-fill-mode: forwards;
 		1.3.43. Crear movimiento usando animación CSS 
 		_ 
 	
