@@ -119,7 +119,7 @@ Una diferencia clave entre las posiciones “fixed” y “absolute” es que un element
 		_ La siguiente herramienta de posicionamiento en realidad no usa “position”, sino que establece la propiedad “float” de un elemento. Los elementos flotantes se eliminan del flujo normal de un documento y se empujan a “left” o “right” de su elemento padre contenedor. Se usa comúnmente con la propiedad “width” para especificar cuanto espacio horizontal requiere el elemento flotante. 
 
 		1.3.24. Cambia la posición de los elementos superpuestos con la propiedad z-index
-		_ 
+		_ Cuando los elementos son posicionados para superponerse (i.e. usando “  position: absolute | relative | fixed | sticky  “), el elemento que viene después dentro del marcado HTML aparecerá, por defecto, encima de los otros elementos. Sin embargo, la propiedad “z-index” puede especificar el orden de cómo los elementos están apilados unos sobre otros. Debe ser un entero (i.e. un número entero y no un decimal), y los elementos que mayor valor tengan en “z-index” serán movidos más arriba en la pila de elementos que aquellos con valores menores. 
 
 		1.3.25. Centra un elemento horizontalmente usando la propiedad margin
 		_  
