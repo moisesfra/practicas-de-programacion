@@ -202,7 +202,11 @@ p:hover {
 }
 Nota: La aplicación de una transformación a un elemento div también afectará a cualquier elemento secundario contenido de el div.
 		1.3.36. Utiliza la propiedad de transformación CSS skewX para inclinar un elemento a lo largo del eje X 
-		_ 
+		_ La siguiente función de la propiedad “ transform ” es “ skewX() ”, que inclinar el elemento seleccionado a lo largo de su eje X (horizontal).
+El siguiente código inclina el elemento de párrafo en -32 grados a lo largo del eje X.
+p {
+  transform: skewX(-32deg);
+}
 
 		1.3.37. Utiliza la propiedad de transformación CSS skewY para inclinar un elemento a lo largo del eje Y  
 		_ 
