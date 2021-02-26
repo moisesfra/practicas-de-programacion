@@ -37,8 +37,8 @@ Nota: El elemento “section” también es nuevo HTML5, y tiene significado semántic
 “header” comparte la función landmark integrada que viste con “main”, lo que permite a las tecnologías de asistencia navegar rápidamente a ese contenido.
 Nota:El “header” está diseñado para usarse dentro de la etiqueta “body” de tu documento HTML. Esto es diferente al elemento “head”, que contiene el título de la página, metainformación, etc.
 		1.4.7.  Haz que la navegación del lector de pantalla sea más fácil con el nav Landmark
-		_ 
-
+		_ El elemento “nav” es otro elemento de HTML5 con la función de punto de referencia insertado para facilitar la navegación del lector de pantalla. Esta etiqueta esta destinada a envolver los principales enlaces de navegación en tu página.
+		Si hay enlaces internos repetidos en la parte de la página, no es necesario usar el lenguaje de marcado con aquellos con una etiqueta “nav” también. Usando una etiqueta “footer” (cubierto en el próximo desafío) es suficiente
 		1.4.8.  Haz que la navegación del lector de pantalla sea más fácil con el footer Landmark 
 		_ 
 
