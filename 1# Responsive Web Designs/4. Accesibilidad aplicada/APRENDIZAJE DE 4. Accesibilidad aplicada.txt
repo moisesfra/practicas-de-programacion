@@ -54,7 +54,16 @@ Note: El contenido multimedia generalmente tiene componentes visuales y de audio
 
 
 		1.4.10. Mejora la accesibilidad de gráficos con el elemento figure
-		_ 
+		_ HTML5 introdujo el elemento “figure” junto con el elemento relacionado “figcaption”. Cuando se usan juntos, estos elementos envuelven una representación visual (como puede ser una imagen, diagrama o gráfico) junto con su leyenda. Esto representa una mejora doble de accesibilidad, porque agrupa contenido semánticamente relacionado y además proporciona un texto alternativo que explica el contenido visual del elemento “figure”.
+En visualizaciones de datos como gráficos, la leyenda o "figcaption" puede ser utilizada para resumir en formato de texto las tendencias o conclusiones, para beneficio de usuarios con discapacidades visuales. Otro de los desafíos se ocupa cómo mover fuera de la pantalla una versión en formato de tabla con los datos del gráfico (usando CSS) para ayudar a usuarios de lectores de pantalla.
+Aquí hay un ejemplo: Ten en cuenta que el elemento “figcaption” va dentro de las etiquetas “figure” y se puede combinar con otros elementos:
+<figure>
+  <img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+  <br>
+  <figcaption>
+    Master Camper Cat demonstrates proper form of a roundhouse kick.
+  </figcaption>
+</figure>
 
 		1.4.11. Mejora la accesibilidad del campo de formulario con el elemento label (etiqueta) 
 		_ 
