@@ -125,8 +125,14 @@ Una diferencia clave entre las posiciones “fixed” y “absolute” es que un element
 		_  Otra técnica de posicionamiento consiste en centrar un elemento de bloque horizontalmente. Una manera de hacer esto es que “margin” tenga valor auto.
 Este método también funciona para imágenes. Las imágenes son elementos en línea de forma predeterminada, pero se pueden cambiar a elementos de bloque cuando se establece la propiedad “display” en “block”.
 		1.3.26. Aprende sobre colores complementarios  
-		_  
-
+		_  El círculo cromático es una herramienta útil para observar cómo los colores están relacionados entre sí - es un círculo donde los tonos similares están juntos y los tonos diferentes alejados. Cuando dos colores opuestos están juntos en el círculo, se los llama colores complementarios. Se caracterizan porque si se combinan, se cancelan así mismos y crean un color gris. Sin embargo, al ubicarse juntos, estos colores parecen más brillantes y producen un contraste visual fuerte.
+A continuación hay algunos ejemplos de colores con sus códigos hexadecimales:
+rojo (#FF0000) y cian (#00FFFF)
+verde(#00FF00) y magenta (#FF00FF)
+azul (#0000FF) y amarillo (#FFF00)
+Esto es diferente del anticuado modelo de color RYB que muchos de nosotros aprendimos en la escuela, que tiene diferentes colores primarios y complementarios. La teoría moderna del color utiliza el modelo aditivo RGB (como en una pantalla de computadora) y el modelo restante CMY(K) (como en la impresión). Lee aquí para obtener más información sobre este complejo tema.
+Hay muchas herramientas de selección de color disponibles en línea que tienen la opción de encontrar el complemento de un color.
+Nota: El uso del color puede ser una forma poderosa de agregar interés visual a una página. Sin embargo, el color por sí solo no debe utilizarse como la única manera de transmitir información importante porque los usuarios con deficiencias visuales pueden no entender ese contenido. Esta cuestión se tratará con más detalle en los desafíos de accesibilidad aplicada.
 		1.3.27. Aprende sobre colores terciarios
 		_ 
 
