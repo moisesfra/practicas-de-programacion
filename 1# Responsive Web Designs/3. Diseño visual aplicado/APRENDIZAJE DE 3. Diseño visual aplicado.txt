@@ -113,8 +113,8 @@ Cambiando la posición de un elemento a relative no lo quita del flujo normal; ot
 		_ La siguiente opción para la propiedad CSS “position” es “absolute”, que bloquea el elemento en su lugar en relación con su contenedor principal. A diferencia de la posición “relative”, esto elimina el elemento del flujo normal del documento, por lo que los elementos circundantes lo ignoran. Las propiedades de desplazamiento de CSS (superior o inferior e izquierda o derecha) se utilizan para ajustar la posición.
 		Un matiz del posicionamiento absoluto es que estará bloqueado en relación con su antepasado posicionado más cercano. Si olvidas agregar una regla de posición al elemento principal, (esto generalmente se hace usando “  position: relative;  ”), el navegador seguirá buscando en la jerarquía de elementos y, en última instancia tomará por defecto la etiqueta “body”.
 		1.3.22. Bloquea un elemento a la ventana del navegador con el posicionamiento fijo 
-		_ 
-
+		_ El diseño que ofrece CSS es la posición “fixed”, que es un tipo de posicionamiento absoluto que bloquea un elemento relativo a la ventana del navegador. Similar al posicionamiento absoluto, se usa con las propiedades de desplazamiento CSS y también elimina el elemento del flujo normal del documento. Otros elementos ya no "se dan cuenta" de donde se coloca, lo que puede requerir algunos ajustes de diseño en otros lugares.
+Una diferencia clave entre las posiciones “fixed” y “absolute” es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
 		1.3.23. Empuja elementos hacia la izquierda o hacia la derecha con la propiedad float 
 		_ 
 
