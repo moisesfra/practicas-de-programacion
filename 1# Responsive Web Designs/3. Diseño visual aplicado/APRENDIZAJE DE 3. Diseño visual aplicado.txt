@@ -212,8 +212,10 @@ p {
 		_ Dado que la función “ skewX() “ inclina el elemento seleccionado a lo largo del eje X en un grado dado, no sorprende que la propiedad “ skewY() “ incline un elemento a lo largo del eje Y (vertical). 
 
 		1.3.38. Crea un gráfico usando CSS 
-		_ 
-
+		_ Al manipular diferentes selectores y propiedades, puedes hacer figuras interesantes. Una de las figuras más fáciles de intentar es la luna creciente. Para este desafío necesitas trabajar con la propiedad “box-shadow” que aplica la sombra de un elemento, junto con la propiedad “border-radius” que controla la redondez de las esquinas del elemento.
+Crearás un objeto redondo y transparente con una sombra nítida que está ligeramente desplazada hacia un lado - la sombra en realidad va a ser la figura de luna que verás.
+Para crear un objeto redondo, la propiedad “border-radius” se le debe asignar un valor de 50%.
+Puede que recuerdes de un desafío anterior que la propiedad “box-shadow” toma valores para “offset-x”, “offset-y”, “blur-radius”, “spread-radius” y un valor para el color, en ese orden. Los valores “blur-radius” y “spread-radius” son opcionales.
 		1.3.39. Crea una forma más compleja usando CSS y HTML  
 		_ 
 
