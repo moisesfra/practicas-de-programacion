@@ -124,7 +124,9 @@ Nota: Los siguientes enfoques CSS No harán lo mismo:
     • “ display: none; “ o “ visibility: hidden; “ oculta el contenido para todos, incluidos los usuarios del lector de pantalla
     • Los valores cero para los tamaños del píxel, como “ width: 0px; height: 0px; “ eliminan ese elemento del flujo de tu documento, lo que significa que los lectores de pantalla lo ignorarán
 		1.4.16. Mejora la legibilidad con texto de alto contraste 
-		_ 
+		_ El bajo contraste entre los colores de primer plano y de fondo puede dificultar la lectura del texto. El contraste suficiente mejora la legibilidad de tu contenido, pero ¿qué significa exactamente "suficiente"?
+		  Las Directrices de Accesibilidad al Contenido Web (WCAG) recomiendan al menos una relación de contraste de 4.5 a 1 para el texto normal. La relación se calcula comparando los valores de luminancia relativa de dos colores. Esto equilibra entre 1:1 para el mismo color, o sin contraste, y 21:1 para el blanco contra el negro, el contraste más fuerte. Hay muchas herramientas de comprobación de contraste disponibles en línea que calculan esta relación por ti.
+
 
 		1.4.17. Evita problemas de percepción del color usando el suficiente contraste
 		_
