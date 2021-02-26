@@ -186,7 +186,7 @@ background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 		_ La función “ repeating-linear-gradient() ” es muy similar a “ linear-gradient() ” con la principal diferencia de que repite el patrón de degradado especificado. “ repeating-linear-gradient() ” acepta una variedad de valores, pero para simplificar, trabajarás con un valor de ángulo y valores de parada de color en este desafío.
 El valor del ángulo es la dirección del gradiente. Las paradas de color son como valores de ancho que marcan donde tiene lugar una transición, y se dan con un porcentaje o un número de píxeles.
 		1.3.33. Crea textura agregando un patrón sutil como imagen de fondo 
-		_ 
+		_ Una forma de agregar textura e interés a un fondo y hacer que se destaque más es agregar un patrón sutil. La clave está en el balance, dado que no querrás que el fondo destaque demasiado y quite atención al primer plano. La propiedad “ background ” acepta la función “ url() “ para enlazar una imagen de la textura o patrón elegido. El enlace es cubierto entre comillas dentro del paréntesis. 
 
 		1.3.34. Utiliza la propiedad de escala de transformación CSS para cambiar el tamaño de un elemento 
 		_ 
