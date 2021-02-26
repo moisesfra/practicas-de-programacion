@@ -247,10 +247,25 @@ Animation-duration establece el tiempo de la animación.
     background-color: yellow;
   }
 }
-
 		
 		1.3.41. Usa animación CSS para cambiar el estado del desplazamiento de un botón 
-		_ 
+		_ Puedes usar CSS @keyframes para cambiar el color de un botón en su estado de desplazamiento.
+Aquí hay un ejemplo de como cambiar el ancho de una imagen al pasar sobre ella:
+<style>
+  img:hover {
+    animation-name: width;
+    animation-duration: 500ms;
+  }
+
+  @keyframes width {
+    100% {
+      width: 40px;
+    }
+  }
+</style>
+
+<img src="https://bit.ly/smallgooglelogo" alt="Google's Logo" />
+
 		
 		1.3.42. Modifica el modo de relleno de una animación (animation-fill-mode) 
 		_ 
