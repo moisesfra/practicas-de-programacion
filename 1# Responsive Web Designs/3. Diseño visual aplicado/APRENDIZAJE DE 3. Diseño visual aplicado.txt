@@ -134,7 +134,18 @@ Esto es diferente del anticuado modelo de color RYB que muchos de nosotros apren
 Hay muchas herramientas de selección de color disponibles en línea que tienen la opción de encontrar el complemento de un color.
 Nota: El uso del color puede ser una forma poderosa de agregar interés visual a una página. Sin embargo, el color por sí solo no debe utilizarse como la única manera de transmitir información importante porque los usuarios con deficiencias visuales pueden no entender ese contenido. Esta cuestión se tratará con más detalle en los desafíos de accesibilidad aplicada.
 		1.3.27. Aprende sobre colores terciarios
-		_ 
+		_ Los monitores y las pantallas crean diferentes colores al combinar cantidades de luz roja, verde y azul. Esto se conoce como modelo aditivo de color RGB en la teoría de moderna de color. Rojo (R), verde (G) y azul (B) «por sus siglas en inglés» son colores primarios. Al combinar dos colores primarios se los colores secundarios cian (G + B), magenta (R + B) y amarillo (R + G). Ya viste estos colores en los desafíos de colores complementarios. Estos colores secundarios son el complemento del color primario no utilizado en su creación y están frente a ese color primario en el círculo cromático. Por ejemplo, el magenta está compuesto de rojo y azul y es el complemento del verde.
+Los colores terciarios se forman al combinar dos colores primarios con uno de sus vecinos de color secundario. Por ejemplo, entre el modelo de color RGB, rojo (primario) y amarillo (secundario) forman naranja (terciario). Esto añade seis colores a un círculo cromático simple para un total de doce.
+Aquí hay tres colores creados usando el esquema de dividir-complemento:
+Color
+Código hexadecimal
+anaranjado
+#FF7F00
+cian
+#00FFFF
+frambuesa
+#FF007F
+
 
 		1.3.28. Adjustar los colores de varios elementos para colores complementarios 
 		_
