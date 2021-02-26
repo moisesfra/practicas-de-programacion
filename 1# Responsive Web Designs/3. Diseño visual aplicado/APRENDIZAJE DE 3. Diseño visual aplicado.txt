@@ -209,7 +209,7 @@ p {
 }
 
 		1.3.37. Utiliza la propiedad de transformación CSS skewY para inclinar un elemento a lo largo del eje Y  
-		_ 
+		_ Dado que la función “ skewX() “ inclina el elemento seleccionado a lo largo del eje X en un grado dado, no sorprende que la propiedad “ skewY() “ incline un elemento a lo largo del eje Y (vertical). 
 
 		1.3.38. Crea un gráfico usando CSS 
 		_ 
