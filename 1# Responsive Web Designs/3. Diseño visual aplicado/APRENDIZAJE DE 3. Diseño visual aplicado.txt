@@ -311,8 +311,8 @@ La animación del latido de un segundo consta de dos piezas animadas. Los element
 		_ Hay muchas formas de alterar la cantidad de animaciones de elementos similares con animaciones. Hasta ahora, esto se ha logrado al aplicar una propiedad “animation-iteration-count” y estableciendo reglas “ @keyframes “.
 A modo de ilustración, la animación de la derecha consta de dos estrellas, cada una de las cuales disminuye en tamaño y opacidad en la marca del 20% en la regla “ @keyframes ”, que crea la animación centelleante. Puede cambiar la regla “ @keyframes ” para uno de los elementos, así las estrellas titilan con diferentes ritmos.
 		1.3.48. Animar múltiples elementos con ritmos diferentes
-		_ 
-
+		_ En el desafío anterior, cambiaste el ritmo de la animación para dos elementos similares animados alterando sus reglas “ @keyframes “. Puedes lograr el mismo objetivo manipulando la “animation-duration” de múltiples elementos.
+En la animación que se ejecuta en el editor de código, hay tres estrellas en el cielo que brillan a la misma velocidad en un ciclo continuo. Para hacerlos titilar con diferentes ritmos, puedes establecer la propiedad “animation-duration” con diferentes valores para cada elemento.
 		1.3.49. Cambia la duración de las animaciones con palabras clave  
 		_ 
 
