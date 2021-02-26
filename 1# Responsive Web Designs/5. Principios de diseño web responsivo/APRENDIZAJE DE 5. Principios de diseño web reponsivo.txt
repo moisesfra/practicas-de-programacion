@@ -1,0 +1,16 @@
+5# Principios de diseño web responsivo
+
+RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
+
+	1.5- Principios de diseño web reponsivo
+		1.5.1.  Crea un media query
+		_ 
+
+		1.5.2.  Haz una imagen reponsiva
+		_ 
+
+		1.5.3.  Usa una imagen retina para pantallas de alta resolución
+		_
+
+		1.5.4.  Haz tipografía responsiva 
+		_ 

@@ -1,0 +1,70 @@
+7# CSS Grid
+
+RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
+
+	1.7- CSS Grid
+		1.7.1.  Crea tu primera CSS Grid
+		_ 
+
+		1.7.2.  Agrega columnas con grid-template-columns
+		_ 
+		
+		1.7.3.  Agrega filas con grid-template-rows
+		_ 
+		
+		1.7.4.  Usa unidades CSS Grid para cambiar el tamaño de las columnas y filas
+		_ 
+
+		1.7.5.  Crea un espacio entre columnas usando grid-column-gap
+		_ 
+		
+		1.7.6.  Crea un espacio entre filas usando grid-row-gap
+		_ 
+
+		1.7.7.  Agrega espacios más rápido con grid-gap
+		_ 
+		
+		1.7.8.  Usa grid-column para controlar espaciado
+		_
+
+		1.7.9.  Usa grid-row para controlar espaciado
+		_ 
+		
+		1.7.10. Alinea un elemento horizontalmente usando justify-self
+		_ 
+
+		1.7.11. Alinea un elemento verticalmente usando align-self
+		_ 
+
+		1.7.12. Alinea todos los elementos horizontales usando justify-items
+		_
+
+		1.7.13. Alinea todos los elementos verticalmente usando align-items
+		_ 
+
+		1.7.14. Divide la grid en una plarilla de área
+		_ 
+
+		1.7.15. Ubica elementos en áreas de cuadrículas (grid) usando la propiedad grid-area
+		_
+
+		1.7.16. Usa grid-area sin crear platillas de área
+		_ 
+
+		1.7.17. Reduce repeticiones usando la función repeat
+		_ 
+
+		1.7.18. Limita el tamaño del elemento usando la función minmax
+		_ 
+
+		1.7.19. Crea diseños flexibles usando auto-fill
+		_ 
+
+		1.7.20. Crea diseños flexibles usando auto-fit
+		_ 
+
+		1.7.21. Usa consultas de medios (media queries) para crear diseños responsivos
+		_ 
+
+		1.7.22. Crea cuadrículas (grids) dentro de cuadrículas
+		_ 

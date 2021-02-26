@@ -1,0 +1,19 @@
+8# Proyectos de diseño web reponsivo
+
+RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
+
+	1.8- Proyectos de diseño web responsivo 
+		1.8.1.  Construye una página tributo
+		_ 
+		
+		1.8.2.  Crea un formulario de encuesta
+		_ 
+
+		1.8.3.  Construye una página de aterrizaje de producto
+		_ 
+		
+		1.8.4.  Construye una página de documentación técnica
+		_ 
+		
+		1.8.5.  Construye una página portafolio personal
+		_ 

@@ -1,0 +1,72 @@
+4# Accesibilidad aplicada
+
+RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
+
+	1.4- Accesibilidad aplicada
+		1.4.1.  Agregar un texto alternativo a las imágenes para accesibilidad de usuarios con dificultades de la vista.
+		_ 
+
+		1.4.2.  Aprende cuando el texto alternativo debe dejarse en blanco
+		_ 
+		
+		1.4.3.  Usa títulos para mostrar relaciones jerárquicas de contenido
+		_ 
+
+		1.4.4.  Salta directamente al contenido usando el elemento principal (main)
+		_ 
+
+		1.4.5.  Envuelve el contenido en el elemento article
+		_ 
+
+		1.4.6.  Haz que la navegación del lector de pantalla sea más fácil con el encabezado Landmark
+		_ 
+		
+		1.4.7.  Haz que la navegación del lector de pantalla sea más fácil con el nav Landmark
+		_ 
+
+		1.4.8.  Haz que la navegación del lector de pantalla sea más fácil con el footer Landmark 
+		_ 
+
+		1.4.9.  Mejorar la accesibilidad del contenido de audio con el elemento de audio
+		_ 
+
+		1.4.10. Mejora la accesibilidad de gráficos con el elemento figure
+		_ 
+
+		1.4.11. Mejora la accesibilidad del campo de formulario con el elemento label (etiqueta) 
+		_ 
+
+		1.4.12. Envuelve los botones de radio en un elemento fieldset para una mejor accesibilidad
+		_ 
+		
+		1.4.13. Agrega un selector de fechas accesible
+		_ 
+		
+		1.4.14. Estandariza horas con el atributo HTML5 datetime
+		_ 
+		
+		1.4.15. Haz que los elementos solo sean visibles para un lector de pantalla mediante CSS personalizado
+		_
+
+		1.4.16. Mejora la legibilidad con texto de alto contraste 
+		_ 
+
+		1.4.17. Evita problemas de percepción del color usando el suficiente contraste
+		_
+		
+		1.4.18. Evita problemas de color para usuarios daltónicos eligiendo cuidadosamente los colores que transmiten información
+		_ 
+
+		1.4.19. Da significado a los enlaces agregando un texto descriptivo
+		_
+
+		1.4.20. Haz que los enlaces sean navegables con claves de acceso HTML
+		_
+
+		1.4.21. Usa tabindex para agregar enfoque de teclado a un elemento
+		_
+
+		1.4.22. Utiliza tabindex para especificar el orden de enfoque del teclado para múltiples elementos
+		_ 
+
+

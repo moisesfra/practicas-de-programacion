@@ -1,0 +1,55 @@
+6# CSS Flexbox
+
+RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
+
+	1.6- CSS Flexbox
+		1.6.1.  Utiliza display: flex para posicionar dos cajas
+		_ 
+	
+		1.6.2.  Agregar superpoderes flex al tweet incrustado
+		_
+
+		1.6.3.  Utilizar la propiedad flex-direction para hacer una fila
+		_ 
+		
+		1.6.4.  Aplica la propiedad flex-direction para crear filas en el tweet Insertado
+		_ 
+
+		1.6.5.  Utiliza la propiedad flex-direction para hacer una columna
+		_ 
+
+		1.6.6.  Aplica la propiedad flex-direction para crear filas en el tweet insertado
+		_ 
+
+		1.6.7.  Alinea elementos mediante la propiedad justify-content
+		_ 
+		
+		1.6.8.  Utiliza la propiedad justify-content en el tweet Insertado
+		_
+
+		1.6.9.  Alinea elementos mediante la propiedad align-items
+		_ 
+ 		
+		1.6.10. Utiliza la propiedad align-items en el tweet insertado
+		_  
+
+		1.6.11. Usa la propiedad flex-wrap para envolver una fila o columna
+		_ 
+
+		1.6.12. Utiliza la propiedad flex-shrink para reducir elementos
+		_ 
+
+		1.6.13. Usa la propiedad flex-grow para expandir elementos
+		_ 
+		
+		1.6.14. Usa la propiedad flex-basis para establecer el tamaño inicial de un elemento
+		_ 
+
+		1.6.15. Usa la propiedad abreviada flex
+		_ 
+		
+		1.6.16. Usa la propiedad order para reorganizar los elementos
+		_ 
+
+		1.6.18. Usa la propiedad align-self
+		_ 
