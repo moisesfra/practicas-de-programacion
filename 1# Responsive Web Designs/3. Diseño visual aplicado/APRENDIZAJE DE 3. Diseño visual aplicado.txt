@@ -116,7 +116,7 @@ Cambiando la posición de un elemento a relative no lo quita del flujo normal; ot
 		_ El diseño que ofrece CSS es la posición “fixed”, que es un tipo de posicionamiento absoluto que bloquea un elemento relativo a la ventana del navegador. Similar al posicionamiento absoluto, se usa con las propiedades de desplazamiento CSS y también elimina el elemento del flujo normal del documento. Otros elementos ya no "se dan cuenta" de donde se coloca, lo que puede requerir algunos ajustes de diseño en otros lugares.
 Una diferencia clave entre las posiciones “fixed” y “absolute” es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
 		1.3.23. Empuja elementos hacia la izquierda o hacia la derecha con la propiedad float 
-		_ 
+		_ La siguiente herramienta de posicionamiento en realidad no usa “position”, sino que establece la propiedad “float” de un elemento. Los elementos flotantes se eliminan del flujo normal de un documento y se empujan a “left” o “right” de su elemento padre contenedor. Se usa comúnmente con la propiedad “width” para especificar cuanto espacio horizontal requiere el elemento flotante. 
 
 		1.3.24. Cambia la posición de los elementos superpuestos con la propiedad z-index
 		_ 
