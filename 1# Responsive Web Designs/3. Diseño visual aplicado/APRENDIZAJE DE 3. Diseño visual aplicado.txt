@@ -308,8 +308,8 @@ En este caso, la animación se detendrá después de ejecutarse 3 veces, pero es po
 		_ Aquí hay un ejemplo más de animación con la propiedad “animation-iteration-count” que usa el corazón que diseñaste en un desafío anterior.
 La animación del latido de un segundo consta de dos piezas animadas. Los elementos “heart” (incluyendo las piezas “ :before ” y “ :after ”) se animan para cambiar el tamaño usando la propiedad “transform”, y el fondo “div” se anima para cambiar su color usando la propiedad “background”.
 		1.3.47. Elementos animados con fluctuaciones 
-		_ 
-
+		_ Hay muchas formas de alterar la cantidad de animaciones de elementos similares con animaciones. Hasta ahora, esto se ha logrado al aplicar una propiedad “animation-iteration-count” y estableciendo reglas “ @keyframes “.
+A modo de ilustración, la animación de la derecha consta de dos estrellas, cada una de las cuales disminuye en tamaño y opacidad en la marca del 20% en la regla “ @keyframes ”, que crea la animación centelleante. Puede cambiar la regla “ @keyframes ” para uno de los elementos, así las estrellas titilan con diferentes ritmos.
 		1.3.48. Animar múltiples elementos con ritmos diferentes
 		_ 
 
