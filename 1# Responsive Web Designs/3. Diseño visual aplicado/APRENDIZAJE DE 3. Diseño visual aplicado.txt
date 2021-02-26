@@ -148,7 +148,7 @@ frambuesa
 
 
 		1.3.28. Adjustar los colores de varios elementos para colores complementarios 
-		_
+		_ En el desafío de colores complementarios vimos que al colocar dos colores opuestos del círculo cromático, parecen más vivos. Sin embargo, el contraste visual fuerte puede ser molesto si se utiliza en un sitio web y algunos veces pueden hacer que el texto sea difícil de leer si está dentro de un ( complementary-color background ). En la práctica, usualmente se usa uno de los colores como dominante y los complementarios se usan para atraer atención visual a cierto contenido dentro de la página. 
 
 		1.3.29. Ajusta el matiz de un color 
 		_ 
