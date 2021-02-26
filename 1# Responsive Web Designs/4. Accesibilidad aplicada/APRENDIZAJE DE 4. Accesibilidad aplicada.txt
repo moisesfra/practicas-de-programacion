@@ -9,8 +9,11 @@ RESUMEN DE LO APRENDIDO EN CADA LECCIÓN!!!
 Las personas con dificultades visuales dependen de lectores de pantalla para convertir el contenido web a una interfaz de audio. Por esta razón, no podrán recibir la información si solo se les presenta de manera visual. En el caso de las imágenes, los lectores de pantalla pueden acceder el atributo ”alt” y leer su contenido para proporcionar información clave.
 Un buen texto “alt” le brinda al lector una breve descripción de la imagen. Siempre deberías incluir el atributo ”alt” en tus imágenes. Además, según la especificación de HTML5, esto ahora se considera obligatorio.
 		1.4.2.  Aprende cuando el texto alternativo debe dejarse en blanco
-		_ 
-		
+		_ Aprendiste que es obligatorio incluir un atributo ”alt” al usar etiquetas “img”. Sin embargo, a veces las imágenes se agrupan con un título que ya las describe, o se usan solo para decoración. En estos casos “alt” el texto puede parecer redundante o innecesario.
+En situaciones en las que una ya está explicada con contenido de texto, o no agrega significado a una página, el “img” todavía necesita un atributo “alt”, pero se puede establecer en una cadena vacía. Aquí hay un ejemplo:
+<img src="visualDecoration.jpeg" alt="">
+		Las imágenes de fondo generalmente también caen bajo la etiqueta "decorativa". Sin embargo, normalmente se aplican con reglas CSS y, por lo tanto, no forman parte del proceso de lectores de pantalla del lenguaje de marcado.
+Nota: Para imágenes con subtítulos, es posible que desees incluir texto “alt”, ya que ayuda a los motores de búsqueda a catalogar el contenido de la imagen.
 		1.4.3.  Usa títulos para mostrar relaciones jerárquicas de contenido
 		_ 
 
