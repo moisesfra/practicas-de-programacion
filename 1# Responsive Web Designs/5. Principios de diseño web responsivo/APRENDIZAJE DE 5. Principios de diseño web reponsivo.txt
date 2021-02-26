@@ -30,4 +30,12 @@ La forma más sencilla de hacer que tus imágenes aparezcan correctamente en panta
 
 
 		1.5.4.  Haz tipografía responsiva 
-		_ 
+		_ En lugar de usar “em” o “px” para dimensionar texto, puedes usar unidades de viewport para obtener una tipografía responsiva. Las unidades de viewport, como los porcentajes, son unidades relativas, pero se basan en objetos diferentes. Las unidades de viewport son relativas a las dimensiones del viewport (ancho o alto) de un dispositivo, y los porcentajes son relativos al tamaño del elemento contenedor padre.
+Las cuatro diferentes unidades de viewport son:
+    • “vw”(viewport width): ”10vw” sería el 10% del ancho del viewport.
+    • “vh”(viewport height):”3vh” sería el 3% del alto del viewport.
+    • “vmin”(viewport mínimo):”70vmin”sería el 70% de la dimensión más pequeña del viewport (altura o ancho).
+    • “vmax” (viewport máximo): ”100vmax” sería el 100% de la dimensión más grande del viewport (altura o ancho).
+Aquí hay un ejemplo que establece una etiqueta “body” al 30% del ancho del viewport.
+body { width: 30vw; }
+
