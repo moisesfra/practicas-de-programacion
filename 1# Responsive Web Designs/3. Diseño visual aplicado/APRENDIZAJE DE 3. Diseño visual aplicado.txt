@@ -290,8 +290,14 @@ Como se muestra en el siguiente ejemplo, puedes empujar el elemento hacia abajo 
 }
 	
 		1.3.44. Crear dirección visual desvaneciendo un elemento de izquierda a derecha 
-		_ 
-
+		_ La opacidad (opacity) de un elemento animado  se desvanezce gradualmente a medida que llega al lado derecho de la pantalla.
+En la animación mostrada, el elemento redondo con el fondo degradado se mueve hacia la derecha con la marca del 50% de la animación según la regla @keyframes. Ejemplo:
+  @keyframes fade {
+    50% {
+      left: 60%;
+      opacity: 0.1;
+    }
+  }
 		1.3.45. Animar los elementos continuamente utilizando un contador de animaciones infinitas 
 		_ 
 
