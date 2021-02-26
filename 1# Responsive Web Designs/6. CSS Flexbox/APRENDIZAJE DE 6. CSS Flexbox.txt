@@ -14,7 +14,7 @@ Colocar la propiedad CSS “ display: flex; ” en un elemento te permite usar otras
 Otras opciones para “flex-direction“ son “row-reverse” y “column-reverse”.
 Nota: El valor predeterminado para la propiedad “flex-direction” es “row”.
 		1.6.4.  Aplica la propiedad flex-direction para crear filas en el tweet Insertado
-		_ 
+		_ El “header” y “footer” en el ejemplo de tweet insertado tienen elementos secundarios que podrían organizarse como filas usando la propiedad “flex-direction” . Esto le dice a CSS que alinee los hijos horizontalmente. 
 
 		1.6.5.  Utiliza la propiedad flex-direction para hacer una columna
 		_ 
