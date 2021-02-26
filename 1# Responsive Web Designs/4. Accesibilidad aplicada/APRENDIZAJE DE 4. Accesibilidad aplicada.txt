@@ -94,8 +94,13 @@ Aquí hay un ejemplo:
 </form>
 
 		1.4.13. Agrega un selector de fechas accesible
-		_ 
-		
+		_ Los formularios suelen incluir el campo “input”, que puede usarse para crear diferentes tipos de controles en los formularios. El atributo “type” en este elemento indica el tipo de elemento “input” a crear.
+Puede que hayas visto los tipos de campo “text” y “submit” en desafíos anteriores. HTML5 además introdujo una opción para especificar un campo “date” para fechas. Dependiendo del soporte de los navegadores, un selector de fechas debería aparecer cuando el campo “input” esté en foco, y esto hace mucho más sencillo para los usuarios cargar información en el formulario.
+Para los navegadores más antiguos, el tipo será por defecto “text”, por lo que ayuda a mostrar a los usuarios el formato de fecha(date) esperado en el texto “label” o “placeholder” por si acaso.
+Aquí hay un ejemplo:
+<label for="input1">Enter a date:</label>
+<input type="date" id="input1" name="input1">
+
 		1.4.14. Estandariza horas con el atributo HTML5 datetime
 		_ 
 		
