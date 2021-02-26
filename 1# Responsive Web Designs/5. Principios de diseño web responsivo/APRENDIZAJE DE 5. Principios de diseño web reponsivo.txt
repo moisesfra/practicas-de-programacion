@@ -12,8 +12,12 @@ y la siguiente consultas de medios devuelve el contenido cuando la altura del di
 @media (min-height: 350px) { /* CSS Rules */ }
 Recuerda, el CSS dentro de las consultas de medios se aplica sólo si el tipo de medio coincide con el del dispositivo que se está usando.
 		1.5.2.  Haz una imagen reponsiva
-		_ 
-
+		_ Hacer imágenes responsivas con CSS es realmente simple. Sólo tienes que agregar estas propiedades a una imagen:
+img {
+  max-width: 100%;
+  height: auto;
+}
+El ancho máximo “max-width” de “100% “se asegurará de que la imagen nunca es más ancha que el contenedor en el que se encuentra. y la altura “height” de “auto” hará que la imagen mantenga su relación de aspecto original.
 		1.5.3.  Usa una imagen retina para pantallas de alta resolución
 		_
 
