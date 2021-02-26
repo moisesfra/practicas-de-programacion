@@ -183,8 +183,8 @@ El primer argumento especifica la dirección desde la que comienza la transición 
 Ejemplo:
 background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 		1.3.32. Utiliza un degradado lineal CSS para crear un elemento rayado 
-		_ 
-
+		_ La función “ repeating-linear-gradient() ” es muy similar a “ linear-gradient() ” con la principal diferencia de que repite el patrón de degradado especificado. “ repeating-linear-gradient() ” acepta una variedad de valores, pero para simplificar, trabajarás con un valor de ángulo y valores de parada de color en este desafío.
+El valor del ángulo es la dirección del gradiente. Las paradas de color son como valores de ancho que marcan donde tiene lugar una transición, y se dan con un porcentaje o un número de píxeles.
 		1.3.33. Crea textura agregando un patrón sutil como imagen de fondo 
 		_ 
 
