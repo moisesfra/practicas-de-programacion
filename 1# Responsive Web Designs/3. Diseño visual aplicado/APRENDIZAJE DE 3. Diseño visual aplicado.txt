@@ -189,7 +189,10 @@ El valor del ángulo es la dirección del gradiente. Las paradas de color son como
 		_ Una forma de agregar textura e interés a un fondo y hacer que se destaque más es agregar un patrón sutil. La clave está en el balance, dado que no querrás que el fondo destaque demasiado y quite atención al primer plano. La propiedad “ background ” acepta la función “ url() “ para enlazar una imagen de la textura o patrón elegido. El enlace es cubierto entre comillas dentro del paréntesis. 
 
 		1.3.34. Utiliza la propiedad de escala de transformación CSS para cambiar el tamaño de un elemento 
-		_ 
+		_ Para cambiar la escala de un elemento, CSS tiene la propiedad “transform” , junto con su función “ scale() ”. En el ejemplo de código siguiente se duplica el tamaño de todos los elementos de párrafo de la página:
+p {
+  transform: scale(2);
+}
 
 		1.3.35. Utiliza la propiedad de escala de transformación CSS para escalar un elemento al desplazarse 
 		_ 
