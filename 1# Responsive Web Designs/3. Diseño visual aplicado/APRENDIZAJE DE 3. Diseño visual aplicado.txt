@@ -122,8 +122,8 @@ Una diferencia clave entre las posiciones “fixed” y “absolute” es que un element
 		_ Cuando los elementos son posicionados para superponerse (i.e. usando “  position: absolute | relative | fixed | sticky  “), el elemento que viene después dentro del marcado HTML aparecerá, por defecto, encima de los otros elementos. Sin embargo, la propiedad “z-index” puede especificar el orden de cómo los elementos están apilados unos sobre otros. Debe ser un entero (i.e. un número entero y no un decimal), y los elementos que mayor valor tengan en “z-index” serán movidos más arriba en la pila de elementos que aquellos con valores menores. 
 
 		1.3.25. Centra un elemento horizontalmente usando la propiedad margin
-		_  
-
+		_  Otra técnica de posicionamiento consiste en centrar un elemento de bloque horizontalmente. Una manera de hacer esto es que “margin” tenga valor auto.
+Este método también funciona para imágenes. Las imágenes son elementos en línea de forma predeterminada, pero se pueden cambiar a elementos de bloque cuando se establece la propiedad “display” en “block”.
 		1.3.26. Aprende sobre colores complementarios  
 		_  
 
