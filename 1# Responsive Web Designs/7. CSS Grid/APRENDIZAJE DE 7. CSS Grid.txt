@@ -14,7 +14,7 @@ Nota: en CSS Grid, el elemento padre se refiere como el (contenedor) y sus hijos
 }
 		Esto le dará a tu cuadrícula dos columnas que tienen 50px de ancho cada una. El número de parámetros que se le da a la propiedad “grid-template-columns” indica el número de columnas en la cuadrícula y el valor de cada parámetro indica el ancho de cada columna.
 		1.7.3.  Agrega filas con grid-template-rows
-		_ 
+		_ La cuadrícula (grid) que creaste en el último desafío establecerá el número de filas automáticamente. Para ajustar las filas manualmente, usa la propiedad “grid-template-rows” de la misma manera como usaste “grid-template-columns” en el desafío anterior. 
 		
 		1.7.4.  Usa unidades CSS Grid para cambiar el tamaño de las columnas y filas
 		_ 
