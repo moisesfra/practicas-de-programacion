@@ -110,4 +110,6 @@ Nota: si a tu contenedor no le caben todos los elementos en una fila, los moverá
 
 
 		1.7.22. Crea cuadrículas (grids) dentro de cuadrículas
-		_ 
+		_ Convertir un elemento a una cuadrícula solo afecta el comportamiento de sus descendientes directos. Entonces, al convertir un descendiente directo a una cuadrícula, obtienes una cuadrícula dentro de una cuadrícula.
+Por ejemplo, al establecer las propiedades “display” and “grid-template-columns” del elemento con clase “item3” , creas una cuadrícula dentro de tu cuadrícula.
+
