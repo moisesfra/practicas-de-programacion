@@ -29,10 +29,10 @@ Esta línea de código genera cinco columnas. La primera columna es tan ancha como
 grid-column-gap: 10px;
 Esto crea espacios vacíos de 10px entre todas las columnas.
 		1.7.6.  Crea un espacio entre filas usando grid-row-gap
-		_ 
+		_ Puedes agregar un espacio entre las filas usando “grid-row-gap” de la misma manera en la que agregaste un espacio entre las columnas en el desafío anterior. 
 
 		1.7.7.  Agrega espacios más rápido con grid-gap
-		_ 
+		_ “grid-gap” es una propiedad abreviada para “grid-row-gap” y “grid-column-gap” de los dos desafíos anteriores que es más conveniente usar. Si ”grid-gap” tiene un valor, creará un espacio entre todas las filas y columnas. Sin embargo, si hay dos valores, usará el primero de estos para poner los espacios entre las filas y el segundo para los espacios entre las columnas. 
 		
 		1.7.8.  Usa grid-column para controlar espaciado
 		_
