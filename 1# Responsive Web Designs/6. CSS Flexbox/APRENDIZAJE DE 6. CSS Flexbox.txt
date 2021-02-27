@@ -70,7 +70,7 @@ Las unidades usadas por la propiedad “flex-basis” son las mismas que otras propi
 Por ejemplo, “  flex: 1 0 10px;  “ establecerá las propiedades del elemento en “  flex-grow: 1;  “ , “  flex-shrink: 0;  ”, y “  flex-basis: 10px;  “.
 La configuración predeterminada de la propiedad es “  flex: 0 1 auto;  “ .
 		1.6.16. Usa la propiedad order para reorganizar los elementos
-		_ 
+		_ La propiedad “order” se utiliza para indicarle a CSS el orden en que aparecen los elementos flexibles en el contenedor flex. Por defecto, los elementos aparecerán en el mismo orden que vienen en el HTML de origen. La propiedad toma números como valores, y se pueden usar números negativos. 
 
-		1.6.18. Usa la propiedad align-self
+		1.6.17. Usa la propiedad align-self
 		_ 
