@@ -33,7 +33,7 @@ Hay varias opciones para espaciar los elementos flexibles a lo largo de la línea
     • “space-around”: similar a ”space-between” pero los primeros y últimos elementos no están fijados en los bordes del contenedor, el espacio se distribuye alrededor de todos los elementos con la mitad de un espacio en ambos extremos del contenedor flexible.
     • “space-evenly”: Distribuye el espacio de manera uniforme entre los elementos flexibles con un espacio completo en ambos extremos del contenedor flexible
 		1.6.8.  Utiliza la propiedad justify-content en el tweet Insertado
-		_
+		_ El último desafío mostró un ejemplo de la propiedad “  justify-content.  ” Para el tweet insertado, esta propiedad se puede aplicar para alinear los elementos en el “  .profile-name  ”. 
 
 		1.6.9.  Alinea elementos mediante la propiedad align-items
 		_ 
