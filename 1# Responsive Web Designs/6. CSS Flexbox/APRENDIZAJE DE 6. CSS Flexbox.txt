@@ -20,7 +20,7 @@ Nota: El valor predeterminado para la propiedad “flex-direction” es “row”.
 		_ Los dos últimos desafíos usaron la propiedad “flex-direction” establecida en “row”. Esta propiedad también puede crear una columna apilando verticalmente los hijos de un contenedor flex. 
 
 		1.6.6.  Aplica la propiedad flex-direction para crear filas en el tweet insertado
-		_ 
+		_ El “header” y “footer” del tweet insertado usaron previamente la propiedad “flex-direction” con un valor de fila. De manera similar, los elementos dentro del elemento “ .profile-name “ funcionarían bien apilados como una columna. 
 
 		1.6.7.  Alinea elementos mediante la propiedad justify-content
 		_ 
