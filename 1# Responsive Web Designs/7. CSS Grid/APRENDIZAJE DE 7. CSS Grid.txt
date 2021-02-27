@@ -45,10 +45,12 @@ Esto hará que el elemento empiece en la primera línea vertical de la grid a la i
 		_ Por supuesto, puedes hacer que los elementos ocupen múltiples filas así como se puede hacer con las columnas. Puedes definir las líneas horizontales donde quieres que un elemento empiece y termine usando la propiedad “grid-row” sobre un elemento de cuadrícula (grid). 
 		
 		1.7.10. Alinea un elemento horizontalmente usando justify-self
-		_ 
-
+		_ En CSS Grid, el contenido de cada elemento está ubicado en una caja, la cual se refiere como celda. Puedes alinear la posición del contenido dentro de la celda horizontalmente usando la propiedad “justify-self” en un elemento grid. Por defecto, esta propiedad tiene valor de “stretch” , lo que hace que el contenido cubra todo el ancho de la celda. Esta propiedad de CSS Grid acepta otros valores también:
+“start”: alinea el contenido hacia la izquierda de la celda,
+“center”: alinea el contenido en el centro de la celda,
+“end”: alinea el contenido hacia la derecha de la celda.
 		1.7.11. Alinea un elemento verticalmente usando align-self
-		_ 
+		_ Así como puedes alinear un elemento horizontalmente, hay una manera de alinearlo verticalmente también. Para hacer esto, usa la propiedad “align-self” sobre un elemento. Esta propiedad acepta los mismos valores que “justify-self” del desafío anterior. 
 
 		1.7.12. Alinea todos los elementos horizontales usando justify-items
 		_
