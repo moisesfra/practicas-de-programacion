@@ -59,8 +59,12 @@ Esto hará que el elemento empiece en la primera línea vertical de la grid a la i
 		_ Usar la propiedad “align-items” en el contenedor de una grid establecerá el alineamiento vertical de todos los elementos de la grid.
 
 		1.7.14. Divide la grid en una plarilla de área
-		_ 
-
+		_ Puedes agrupar las celdas de tu grid en una área y darle a esa área un nombre personalizado. Haz esto usando “grid-template-areas” en el contenedor de la siguiente manera:
+grid-template-areas:
+  "header header header"
+  "advert content content"
+  "footer footer footer";
+El código anterior fusiona las tres celdas superiores en una área llamada “header”, las tres celdas inferiores en una área “footer” y hace dos áreas en la fila del medio; “advert” and “content”. Nota: cada palabra en el código representa una celda y cada par de comillas representa una fila. Además de los nombres personalizados, puedes usar un punto (“.”) para designar una celda vacía en la grid.
 		1.7.15. Ubica elementos en áreas de cuadrículas (grid) usando la propiedad grid-area
 		_
 
