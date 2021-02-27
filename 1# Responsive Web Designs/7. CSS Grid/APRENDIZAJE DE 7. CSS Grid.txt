@@ -53,7 +53,7 @@ Esto hará que el elemento empiece en la primera línea vertical de la grid a la i
 		_ Así como puedes alinear un elemento horizontalmente, hay una manera de alinearlo verticalmente también. Para hacer esto, usa la propiedad “align-self” sobre un elemento. Esta propiedad acepta los mismos valores que “justify-self” del desafío anterior. 
 
 		1.7.12. Alinea todos los elementos horizontales usando justify-items
-		_
+		_ Algunas veces querrás que todos los elementos en tu CSS Grid compartan el mismo alineamiento. Puedes usar las propiedades aprendidas anteriormente y alinearlos individualmente, o puedes alinear todos a la vez horizontalmente usando “justify-items” en el contenedor de tu grid. Esta propiedad acepta los mismos valores aprendidos en los dos desafíos previos, siendo la única diferencia que moverá all los elementos de la grid hacia el alineamiento deseado. 
 
 		1.7.13. Alinea todos los elementos verticalmente usando align-items
 		_ 
