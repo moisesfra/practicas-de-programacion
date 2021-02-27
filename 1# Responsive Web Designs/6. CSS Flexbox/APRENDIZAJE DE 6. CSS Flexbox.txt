@@ -17,7 +17,7 @@ Nota: El valor predeterminado para la propiedad “flex-direction” es “row”.
 		_ El “header” y “footer” en el ejemplo de tweet insertado tienen elementos secundarios que podrían organizarse como filas usando la propiedad “flex-direction” . Esto le dice a CSS que alinee los hijos horizontalmente. 
 
 		1.6.5.  Utiliza la propiedad flex-direction para hacer una columna
-		_ 
+		_ Los dos últimos desafíos usaron la propiedad “flex-direction” establecida en “row”. Esta propiedad también puede crear una columna apilando verticalmente los hijos de un contenedor flex. 
 
 		1.6.6.  Aplica la propiedad flex-direction para crear filas en el tweet insertado
 		_ 
