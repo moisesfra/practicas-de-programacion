@@ -42,7 +42,7 @@ Aquí un ejemplo:
 grid-column: 1 / 3;
 Esto hará que el elemento empiece en la primera línea vertical de la grid a la izquierda y se extienda a la 3ra línea de la grid, ocupando dos columnas.
 		1.7.9.  Usa grid-row para controlar espaciado
-		_ 
+		_ Por supuesto, puedes hacer que los elementos ocupen múltiples filas así como se puede hacer con las columnas. Puedes definir las líneas horizontales donde quieres que un elemento empiece y termine usando la propiedad “grid-row” sobre un elemento de cuadrícula (grid). 
 		
 		1.7.10. Alinea un elemento horizontalmente usando justify-self
 		_ 
