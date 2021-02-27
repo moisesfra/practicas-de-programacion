@@ -49,8 +49,12 @@ Los diferentes valores disponibles para “align-items” incluyen:
 		_  El último desafío introdujo la propiedad “align-items” dio un ejemplo. Esta propiedad se puede aplicar a unos cuantos elementos del tweet insertado para alinear los elementos flexibles dentro de ellos. 
 
 		1.6.11. Usa la propiedad flex-wrap para envolver una fila o columna
-		_ 
-
+		_ CSS flexbox tiene una característica para dividir un elemento flexible en varias filas (o columnas). De forma predeterminada, un contenedor flexible encajará todos los elementos flexibles juntos. Por ejemplo, una fila estará completa en una sola línea.
+		Sin embargo, usar la propiedad “flex-wrap” le indica al CSS que envuelva los elementos. Esto significa que los elementos extra se mueven hacia una nueva fila o columna. El punto de ruptura donde ocurre la envoltura depende del tamaño de los elementos y del tamaño del contenedor.
+CSS también tiene opciones para la dirección de la envoltura:
+    • “nowrap”: esta es la configuración predeterminada, y no envuelve elementos.
+    • “wrap”: envuelve elementos en múltiples líneas de arriba a abajo si están en filas y de izquierda a derecha si están en columnas.
+    • “wrap-reverse”: envuelve elementos en múltiples líneas de abajo hacia arriba si están en filas y de derecha a izquierda si están en columnas.
 		1.6.12. Utiliza la propiedad flex-shrink para reducir elementos
 		_ 
 
