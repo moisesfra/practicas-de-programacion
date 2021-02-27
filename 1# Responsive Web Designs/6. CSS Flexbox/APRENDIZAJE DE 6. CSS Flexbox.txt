@@ -46,7 +46,7 @@ Los diferentes valores disponibles para “align-items” incluyen:
     • “stretch”: estira los elementos para llenar el contenedor flexible. Por ejemplo, los elementos de filas son estirados para llenar el contenedor flexible de arriba hacia abajo. Este es el valor predeterminado si no se especifica ningún tipo de “align-items”.
     • “baseline”: alinea los elementos con sus líneas base. Una línea base es un concepto de texto, piensa en ella como la línea en la que se sitúan las letras.
 		1.6.10. Utiliza la propiedad align-items en el tweet insertado
-		_  
+		_  El último desafío introdujo la propiedad “align-items” dio un ejemplo. Esta propiedad se puede aplicar a unos cuantos elementos del tweet insertado para alinear los elementos flexibles dentro de ellos. 
 
 		1.6.11. Usa la propiedad flex-wrap para envolver una fila o columna
 		_ 
