@@ -3,7 +3,14 @@
   .item2{background:LightSalmon;}
   .item3{background:PaleTurquoise;}
   .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+
+  .item5 {
+    background: PaleGreen;
+    /* Cambia solo el código debajo de esta línea */
+    grid-area: footer;
+
+    /* Cambia solo el código encima de esta línea */
+  }
 
   .container {
     font-size: 40px;
@@ -15,11 +22,9 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     grid-template-areas:
-    /* Cambia solo el código debajo de esta línea */
       "header header header"
-      ". content content"
+      "advert content content"
       "footer footer footer";
-    /* Cambia solo el código encima de esta línea */
   }
 </style>
 
