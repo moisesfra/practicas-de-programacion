@@ -98,8 +98,9 @@ Nota:El “1fr 50px” es repetido dos veces, seguido de 20px.
 grid-template-columns: 100px minmax(50px, 200px);
 		En el código anterior,”grid-template-columns” se configuró para crear dos columnas; la primera tiene 100px de ancho y la segunda tiene un ancho mínimo de 50px y máximo de 200px.
 		1.7.19. Crea diseños flexibles usando auto-fill
-		_ 
-
+		_ La función de repetición viene con una opción llamada “auto-fill”. Esto te permite insertar automáticamente tantas filas o columnas del tamaño deseado como sea posible, dependiendo del tamaño del contenedor. Puedes crear diseños flexibles al combinar “auto-fill” con ”minmax” , así:
+repeat(auto-fill, minmax(60px, 1fr));
+Cuando el tamaño del contenedor cambia, esta configuración sigue insertando columnas de 60px y estirándolas hasta que pueda insertar otra. Nota: Si a tu contenedor no le caben todos los elementos en una fila, los moverá hacia abajo a una nueva fila.
 		1.7.20. Crea diseños flexibles usando auto-fit
 		_ 
 
