@@ -60,8 +60,8 @@ CSS también tiene opciones para la dirección de la envoltura:
 La primera es la propiedad “flex-shrink” . Cuando se usa, permite que un elemento se contraiga si el contenedor flex es demasiado pequeño. Los elementos se reducen cuando el ancho del contenedor principal es menor que el ancho combinado de todos los elementos flex dentro del él.
 La propiedad “flex-shrink” toma números como valores. Cuando mayor sea el número, más se reducirá en comparación con los otros elementos en el contenedor. Por ejemplo, si un elemento tiene un “flex-shrink” con valor de “1” y el otro tiene un “flex-shrink” con valor de “3”, el que tiene el valor de “3” se reducirá tres veces más que el otro.
 		1.6.13. Usa la propiedad flex-grow para expandir elementos
-		_ 
-		
+		_ Lo contrario de “flex-shrink” es la propiedad “flex-grow”. Recuerda que “flex-shrink” controla el tamaño de los elementos cuando el contenedor se encoge. La propiedad “flex-grow” controla el tamaño de los elementos cuando el contenedor primario se expande.
+Utilizando un ejemplo similar al del último desafío, si un elemento tiene un ”flex-grow” con valor de “1“ y el otro tiene un “flex-grow” con valor de ”3”, el que tiene el valor de ”3” crecerá tres veces más que el otro.
 		1.6.14. Usa la propiedad flex-basis para establecer el tamaño inicial de un elemento
 		_ 
 
