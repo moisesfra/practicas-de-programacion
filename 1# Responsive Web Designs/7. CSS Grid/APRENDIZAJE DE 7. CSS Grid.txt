@@ -35,8 +35,12 @@ Esto crea espacios vacíos de 10px entre todas las columnas.
 		_ “grid-gap” es una propiedad abreviada para “grid-row-gap” y “grid-column-gap” de los dos desafíos anteriores que es más conveniente usar. Si ”grid-gap” tiene un valor, creará un espacio entre todas las filas y columnas. Sin embargo, si hay dos valores, usará el primero de estos para poner los espacios entre las filas y el segundo para los espacios entre las columnas. 
 		
 		1.7.8.  Usa grid-column para controlar espaciado
-		_
-
+		_ Hasta este punto, todas las propiedades que hemos discutido son para los contenedores de cuadrícula (grid). La propiedad “grid-column” es la primera que usaremos para los propios elementos de la cuadrícula.
+Las líneas horizontales y verticales hipotéticas que crean la cuadrícula son referidas como líneas. Estas líneas son enumeradas empezando con el 1 desde la esquina superior izquierda de la cuadrícula y se desplaza hacia la derecha para las columnas y hacia abajo para las filas, contando hacia arriba.
+Para controlar la cantidad de columnas que un elemento tendrá, puedes usar la propiedad “grid-column” en conjunto con el número de las líneas en las que quieres que empiece y termine.
+Aquí un ejemplo:
+grid-column: 1 / 3;
+Esto hará que el elemento empiece en la primera línea vertical de la grid a la izquierda y se extienda a la 3ra línea de la grid, ocupando dos columnas.
 		1.7.9.  Usa grid-row para controlar espaciado
 		_ 
 		
