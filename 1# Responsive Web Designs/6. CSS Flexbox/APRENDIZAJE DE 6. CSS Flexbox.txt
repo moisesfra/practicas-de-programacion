@@ -63,8 +63,8 @@ La propiedad “flex-shrink” toma números como valores. Cuando mayor sea el número
 		_ Lo contrario de “flex-shrink” es la propiedad “flex-grow”. Recuerda que “flex-shrink” controla el tamaño de los elementos cuando el contenedor se encoge. La propiedad “flex-grow” controla el tamaño de los elementos cuando el contenedor primario se expande.
 Utilizando un ejemplo similar al del último desafío, si un elemento tiene un ”flex-grow” con valor de “1“ y el otro tiene un “flex-grow” con valor de ”3”, el que tiene el valor de ”3” crecerá tres veces más que el otro.
 		1.6.14. Usa la propiedad flex-basis para establecer el tamaño inicial de un elemento
-		_ 
-
+		_ La propiedad “flex-basis” especifica el tamaño inicial del elemento antes de que CSS haga ajustes con ”flex-shrink” o “flex-grow”.
+Las unidades usadas por la propiedad “flex-basis” son las mismas que otras propiedades de tamaño (px, em, %, etc.). El valor “auto” dimensiona los elementos basándose en el contenido.
 		1.6.15. Usa la propiedad abreviada flex
 		_ 
 		
